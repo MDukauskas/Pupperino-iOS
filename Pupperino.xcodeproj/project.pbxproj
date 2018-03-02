@@ -7,12 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36034C5287943487474CF2E4 /* Pods_PupperinoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80066ACE0BAB390A5B585E05 /* Pods_PupperinoTests.framework */; };
 		9A05DFA42049990300BB3B2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A05DFA32049990300BB3B2F /* AppDelegate.swift */; };
-		9A05DFA62049990300BB3B2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A05DFA52049990300BB3B2F /* ViewController.swift */; };
-		9A05DFA92049990300BB3B2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A05DFA72049990300BB3B2F /* Main.storyboard */; };
-		9A05DFAB2049990300BB3B2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A05DFAA2049990300BB3B2F /* Assets.xcassets */; };
-		9A05DFAE2049990300BB3B2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A05DFAC2049990300BB3B2F /* LaunchScreen.storyboard */; };
 		9A05DFB92049990300BB3B2F /* PupperinoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A05DFB82049990300BB3B2F /* PupperinoTests.swift */; };
+		9A3C651420499EC300E210F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A3C650F20499EC300E210F0 /* Assets.xcassets */; };
+		9A3C651520499EC300E210F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A3C651020499EC300E210F0 /* LaunchScreen.storyboard */; };
+		9A3C651620499EC300E210F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A3C651220499EC300E210F0 /* Main.storyboard */; };
+		9A3C651A20499F6D00E210F0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C651720499F6C00E210F0 /* Constants.swift */; };
+		9A3C651B20499F6D00E210F0 /* Constants+DevelopmentTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C651820499F6D00E210F0 /* Constants+DevelopmentTarget.swift */; };
+		9A3C653620499FE800E210F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A05DFA32049990300BB3B2F /* AppDelegate.swift */; };
+		9A3C653820499FE800E210F0 /* Constants+ProductionTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C651920499F6D00E210F0 /* Constants+ProductionTarget.swift */; };
+		9A3C653920499FE800E210F0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C651720499F6C00E210F0 /* Constants.swift */; };
+		9A3C653B20499FE800E210F0 /* Pods_Pupperino.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27BAC302B1033B8900094A74 /* Pods_Pupperino.framework */; };
+		9A3C653D20499FE800E210F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A3C651220499EC300E210F0 /* Main.storyboard */; };
+		9A3C653E20499FE800E210F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A3C650F20499EC300E210F0 /* Assets.xcassets */; };
+		9A3C653F20499FE800E210F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A3C651020499EC300E210F0 /* LaunchScreen.storyboard */; };
+		9A3C658B2049A26100E210F0 /* ArticleEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C65482049A26100E210F0 /* ArticleEntity.swift */; };
+		9A3C658C2049A26100E210F0 /* ArticleEntityMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C65492049A26100E210F0 /* ArticleEntityMock.swift */; };
+		9A3C658D2049A26100E210F0 /* ArticleEntityTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C654A2049A26100E210F0 /* ArticleEntityTools.swift */; };
+		9A3C658E2049A26100E210F0 /* SourceEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C654B2049A26100E210F0 /* SourceEntity.swift */; };
+		9A3C658F2049A26100E210F0 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C654D2049A26100E210F0 /* NotificationManager.swift */; };
+		9A3C65902049A26100E210F0 /* GetSourceListOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C65502049A26100E210F0 /* GetSourceListOutput.swift */; };
+		9A3C65912049A26100E210F0 /* GetSourceListOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C65512049A26100E210F0 /* GetSourceListOperation.swift */; };
+		9A3C65922049A26100E210F0 /* TSMBaseServerOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C65522049A26100E210F0 /* TSMBaseServerOperation.swift */; };
+		9A3C65932049A26100E210F0 /* TSMBaseOperationOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C65532049A26100E210F0 /* TSMBaseOperationOutput.swift */; };
+		9A3C65942049A26100E210F0 /* ChangeArticleFavouriteStatusOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C65562049A26100E210F0 /* ChangeArticleFavouriteStatusOperation.swift */; };
+		9A3C65952049A26100E210F0 /* ChangeArticleFavouriteStatusInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C65572049A26100E210F0 /* ChangeArticleFavouriteStatusInput.swift */; };
+		9A3C65962049A26100E210F0 /* GetArticleListOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C65592049A26100E210F0 /* GetArticleListOutput.swift */; };
+		9A3C65972049A26100E210F0 /* GetArticleListOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C655A2049A26100E210F0 /* GetArticleListOperation.swift */; };
+		9A3C65982049A26100E210F0 /* GetArticleListInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C655B2049A26100E210F0 /* GetArticleListInput.swift */; };
+		9A3C65992049A26100E210F0 /* TSMBaseOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C655C2049A26100E210F0 /* TSMBaseOperation.swift */; };
+		9A3C659A2049A26100E210F0 /* ArticleRealmEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C65602049A26100E210F0 /* ArticleRealmEntity.swift */; };
+		9A3C659B2049A26100E210F0 /* RealmRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C65612049A26100E210F0 /* RealmRepository.swift */; };
+		9A3C659C2049A26100E210F0 /* RepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C65622049A26100E210F0 /* RepositoryProtocol.swift */; };
+		9A3C659D2049A26100E210F0 /* RepositoryFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C65632049A26100E210F0 /* RepositoryFactory.swift */; };
+		9A3C659E2049A26100E210F0 /* FMDBRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C65652049A26100E210F0 /* FMDBRepository.swift */; };
+		9A3C659F2049A26100E210F0 /* FMDBRepositoryMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C65662049A26100E210F0 /* FMDBRepositoryMock.swift */; };
+		9A3C65A02049A26100E210F0 /* GenericTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C65682049A26100E210F0 /* GenericTools.swift */; };
+		9A3C65A12049A26100E210F0 /* String+TSMTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C65692049A26100E210F0 /* String+TSMTools.swift */; };
+		9A3C65A22049A26100E210F0 /* TSMThreadSafetyTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C656A2049A26100E210F0 /* TSMThreadSafetyTools.swift */; };
+		9A3C65A32049A26100E210F0 /* Array+Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C656B2049A26100E210F0 /* Array+Tools.swift */; };
+		9A3C65A42049A26100E210F0 /* TSMGenericTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C656C2049A26100E210F0 /* TSMGenericTools.swift */; };
+		9A3C65A52049A26100E210F0 /* UITableView+TSMTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C656D2049A26100E210F0 /* UITableView+TSMTools.swift */; };
+		9A3C65A62049A26100E210F0 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C656F2049A26100E210F0 /* BaseViewController.swift */; };
+		9A3C65A72049A26100E210F0 /* SourceListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C65722049A26100E210F0 /* SourceListTableViewCell.swift */; };
+		9A3C65A82049A26100E210F0 /* SourceListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A3C65732049A26100E210F0 /* SourceListTableViewCell.xib */; };
+		9A3C65A92049A26100E210F0 /* SourceListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C65742049A26100E210F0 /* SourceListViewController.swift */; };
+		9A3C65AA2049A26100E210F0 /* SourceListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A3C65752049A26100E210F0 /* SourceListViewController.xib */; };
+		9A3C65AB2049A26100E210F0 /* SourceListDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C65772049A26100E210F0 /* SourceListDataModel.swift */; };
+		9A3C65AC2049A26100E210F0 /* ArticleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C657A2049A26100E210F0 /* ArticleListViewController.swift */; };
+		9A3C65AD2049A26100E210F0 /* ArticleListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C657C2049A26100E210F0 /* ArticleListTableViewCell.swift */; };
+		9A3C65AE2049A26100E210F0 /* ArticleListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A3C657D2049A26100E210F0 /* ArticleListTableViewCell.xib */; };
+		9A3C65AF2049A26100E210F0 /* ArticleListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A3C657E2049A26100E210F0 /* ArticleListViewController.xib */; };
+		9A3C65B02049A26100E210F0 /* ArticleListDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C65802049A26100E210F0 /* ArticleListDataModel.swift */; };
+		9A3C65B12049A26100E210F0 /* FavouriteArticleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C65822049A26100E210F0 /* FavouriteArticleListViewController.swift */; };
+		9A3C65B22049A26100E210F0 /* FavouriteArticleListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A3C65832049A26100E210F0 /* FavouriteArticleListViewController.xib */; };
+		9A3C65B32049A26100E210F0 /* FavouriteArticleListDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C65852049A26100E210F0 /* FavouriteArticleListDataModel.swift */; };
+		9A3C65B42049A26100E210F0 /* ArticleDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C65872049A26100E210F0 /* ArticleDetailsViewController.swift */; };
+		9A3C65B52049A26100E210F0 /* ArticleDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A3C65882049A26100E210F0 /* ArticleDetailsViewController.xib */; };
+		9A3C65B62049A26100E210F0 /* ArticleDetailsDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C658A2049A26100E210F0 /* ArticleDetailsDataModel.swift */; };
+		A713476F0B61E2BBE2C2F3CF /* Pods_Pupperino.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27BAC302B1033B8900094A74 /* Pods_Pupperino.framework */; };
+		ADB6EF98B4DEF35EBF96ACF9 /* Pods_Pupperino_prd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D8049D40751780ADC1F6E32 /* Pods_Pupperino_prd.framework */; };
+		D207DB59D8984725D284D275 /* Pods_Pupperino_dev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D39C42C10BD489A80681008E /* Pods_Pupperino_dev.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +82,76 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9A05DFA02049990300BB3B2F /* Pupperino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pupperino.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EFBBBD8667504CE993C78A7 /* Pods-PupperinoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PupperinoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PupperinoTests/Pods-PupperinoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		20973AA7B5D4DBBE43AC1DA7 /* Pods-Pupperino.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pupperino.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pupperino/Pods-Pupperino.debug.xcconfig"; sourceTree = "<group>"; };
+		27BAC302B1033B8900094A74 /* Pods_Pupperino.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pupperino.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C449BDA2A4B4881B1CA9411 /* Pods-Pupperino-dev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pupperino-dev.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pupperino-dev/Pods-Pupperino-dev.debug.xcconfig"; sourceTree = "<group>"; };
+		2D8049D40751780ADC1F6E32 /* Pods_Pupperino_prd.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pupperino_prd.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49E58EDC3EF29BDCC0AF8FA0 /* Pods-Pupperino.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pupperino.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pupperino/Pods-Pupperino.release.xcconfig"; sourceTree = "<group>"; };
+		80066ACE0BAB390A5B585E05 /* Pods_PupperinoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PupperinoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A05DFA02049990300BB3B2F /* Pupperino-dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pupperino-dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A05DFA32049990300BB3B2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9A05DFA52049990300BB3B2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9A05DFA82049990300BB3B2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9A05DFAA2049990300BB3B2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9A05DFAD2049990300BB3B2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9A05DFAF2049990300BB3B2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A05DFAF2049990300BB3B2F /* Pupperino-dev-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pupperino-dev-Info.plist"; sourceTree = "<group>"; };
 		9A05DFB42049990300BB3B2F /* PupperinoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PupperinoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A05DFB82049990300BB3B2F /* PupperinoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PupperinoTests.swift; sourceTree = "<group>"; };
 		9A05DFBA2049990300BB3B2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A3C650F20499EC300E210F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A3C651120499EC300E210F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A3C651320499EC300E210F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A3C651720499F6C00E210F0 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9A3C651820499F6D00E210F0 /* Constants+DevelopmentTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Constants+DevelopmentTarget.swift"; sourceTree = "<group>"; };
+		9A3C651920499F6D00E210F0 /* Constants+ProductionTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Constants+ProductionTarget.swift"; sourceTree = "<group>"; };
+		9A3C653120499FAE00E210F0 /* Pupperino-prd-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Pupperino-prd-Info.plist"; path = "/Users/cheskapac/Development/Pupperino/code/iOS/Pupperino/Pupperino/Pupperino-prd-Info.plist"; sourceTree = "<absolute>"; };
+		9A3C654520499FE800E210F0 /* Pupperino-prd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pupperino-prd.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A3C65482049A26100E210F0 /* ArticleEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleEntity.swift; sourceTree = "<group>"; };
+		9A3C65492049A26100E210F0 /* ArticleEntityMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleEntityMock.swift; sourceTree = "<group>"; };
+		9A3C654A2049A26100E210F0 /* ArticleEntityTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleEntityTools.swift; sourceTree = "<group>"; };
+		9A3C654B2049A26100E210F0 /* SourceEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SourceEntity.swift; sourceTree = "<group>"; };
+		9A3C654D2049A26100E210F0 /* NotificationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		9A3C65502049A26100E210F0 /* GetSourceListOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetSourceListOutput.swift; sourceTree = "<group>"; };
+		9A3C65512049A26100E210F0 /* GetSourceListOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetSourceListOperation.swift; sourceTree = "<group>"; };
+		9A3C65522049A26100E210F0 /* TSMBaseServerOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSMBaseServerOperation.swift; sourceTree = "<group>"; };
+		9A3C65532049A26100E210F0 /* TSMBaseOperationOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSMBaseOperationOutput.swift; sourceTree = "<group>"; };
+		9A3C65562049A26100E210F0 /* ChangeArticleFavouriteStatusOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeArticleFavouriteStatusOperation.swift; sourceTree = "<group>"; };
+		9A3C65572049A26100E210F0 /* ChangeArticleFavouriteStatusInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeArticleFavouriteStatusInput.swift; sourceTree = "<group>"; };
+		9A3C65592049A26100E210F0 /* GetArticleListOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetArticleListOutput.swift; sourceTree = "<group>"; };
+		9A3C655A2049A26100E210F0 /* GetArticleListOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetArticleListOperation.swift; sourceTree = "<group>"; };
+		9A3C655B2049A26100E210F0 /* GetArticleListInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetArticleListInput.swift; sourceTree = "<group>"; };
+		9A3C655C2049A26100E210F0 /* TSMBaseOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSMBaseOperation.swift; sourceTree = "<group>"; };
+		9A3C65602049A26100E210F0 /* ArticleRealmEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleRealmEntity.swift; sourceTree = "<group>"; };
+		9A3C65612049A26100E210F0 /* RealmRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmRepository.swift; sourceTree = "<group>"; };
+		9A3C65622049A26100E210F0 /* RepositoryProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoryProtocol.swift; sourceTree = "<group>"; };
+		9A3C65632049A26100E210F0 /* RepositoryFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoryFactory.swift; sourceTree = "<group>"; };
+		9A3C65652049A26100E210F0 /* FMDBRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMDBRepository.swift; sourceTree = "<group>"; };
+		9A3C65662049A26100E210F0 /* FMDBRepositoryMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMDBRepositoryMock.swift; sourceTree = "<group>"; };
+		9A3C65682049A26100E210F0 /* GenericTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericTools.swift; sourceTree = "<group>"; };
+		9A3C65692049A26100E210F0 /* String+TSMTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+TSMTools.swift"; sourceTree = "<group>"; };
+		9A3C656A2049A26100E210F0 /* TSMThreadSafetyTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSMThreadSafetyTools.swift; sourceTree = "<group>"; };
+		9A3C656B2049A26100E210F0 /* Array+Tools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Tools.swift"; sourceTree = "<group>"; };
+		9A3C656C2049A26100E210F0 /* TSMGenericTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSMGenericTools.swift; sourceTree = "<group>"; };
+		9A3C656D2049A26100E210F0 /* UITableView+TSMTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+TSMTools.swift"; sourceTree = "<group>"; };
+		9A3C656F2049A26100E210F0 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		9A3C65722049A26100E210F0 /* SourceListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SourceListTableViewCell.swift; sourceTree = "<group>"; };
+		9A3C65732049A26100E210F0 /* SourceListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SourceListTableViewCell.xib; sourceTree = "<group>"; };
+		9A3C65742049A26100E210F0 /* SourceListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SourceListViewController.swift; sourceTree = "<group>"; };
+		9A3C65752049A26100E210F0 /* SourceListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SourceListViewController.xib; sourceTree = "<group>"; };
+		9A3C65772049A26100E210F0 /* SourceListDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SourceListDataModel.swift; sourceTree = "<group>"; };
+		9A3C657A2049A26100E210F0 /* ArticleListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleListViewController.swift; sourceTree = "<group>"; };
+		9A3C657C2049A26100E210F0 /* ArticleListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleListTableViewCell.swift; sourceTree = "<group>"; };
+		9A3C657D2049A26100E210F0 /* ArticleListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArticleListTableViewCell.xib; sourceTree = "<group>"; };
+		9A3C657E2049A26100E210F0 /* ArticleListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArticleListViewController.xib; sourceTree = "<group>"; };
+		9A3C65802049A26100E210F0 /* ArticleListDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleListDataModel.swift; sourceTree = "<group>"; };
+		9A3C65822049A26100E210F0 /* FavouriteArticleListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavouriteArticleListViewController.swift; sourceTree = "<group>"; };
+		9A3C65832049A26100E210F0 /* FavouriteArticleListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FavouriteArticleListViewController.xib; sourceTree = "<group>"; };
+		9A3C65852049A26100E210F0 /* FavouriteArticleListDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavouriteArticleListDataModel.swift; sourceTree = "<group>"; };
+		9A3C65872049A26100E210F0 /* ArticleDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleDetailsViewController.swift; sourceTree = "<group>"; };
+		9A3C65882049A26100E210F0 /* ArticleDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArticleDetailsViewController.xib; sourceTree = "<group>"; };
+		9A3C658A2049A26100E210F0 /* ArticleDetailsDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleDetailsDataModel.swift; sourceTree = "<group>"; };
+		BED5969F666E42EDE56E2FC7 /* Pods-Pupperino-dev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pupperino-dev.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pupperino-dev/Pods-Pupperino-dev.release.xcconfig"; sourceTree = "<group>"; };
+		C7299E022FB01C27C231371E /* Pods-Pupperino-prd.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pupperino-prd.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pupperino-prd/Pods-Pupperino-prd.release.xcconfig"; sourceTree = "<group>"; };
+		D39C42C10BD489A80681008E /* Pods_Pupperino_dev.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pupperino_dev.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D738BF5F6ABFD9A8855E0923 /* Pods-Pupperino-prd.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pupperino-prd.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pupperino-prd/Pods-Pupperino-prd.debug.xcconfig"; sourceTree = "<group>"; };
+		DA8186C98D0102FB27CEA0EC /* Pods-PupperinoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PupperinoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PupperinoTests/Pods-PupperinoTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +159,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A713476F0B61E2BBE2C2F3CF /* Pods_Pupperino.framework in Frameworks */,
+				D207DB59D8984725D284D275 /* Pods_Pupperino_dev.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,26 +168,50 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36034C5287943487474CF2E4 /* Pods_PupperinoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A3C653A20499FE800E210F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A3C653B20499FE800E210F0 /* Pods_Pupperino.framework in Frameworks */,
+				ADB6EF98B4DEF35EBF96ACF9 /* Pods_Pupperino_prd.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D59069FD9A4009ECECA5918 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27BAC302B1033B8900094A74 /* Pods_Pupperino.framework */,
+				80066ACE0BAB390A5B585E05 /* Pods_PupperinoTests.framework */,
+				D39C42C10BD489A80681008E /* Pods_Pupperino_dev.framework */,
+				2D8049D40751780ADC1F6E32 /* Pods_Pupperino_prd.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9A05DF972049990300BB3B2F = {
 			isa = PBXGroup;
 			children = (
 				9A05DFA22049990300BB3B2F /* Pupperino */,
 				9A05DFB72049990300BB3B2F /* PupperinoTests */,
 				9A05DFA12049990300BB3B2F /* Products */,
+				AB4A40415947E691DC7F68D0 /* Pods */,
+				6D59069FD9A4009ECECA5918 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		9A05DFA12049990300BB3B2F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9A05DFA02049990300BB3B2F /* Pupperino.app */,
+				9A05DFA02049990300BB3B2F /* Pupperino-dev.app */,
 				9A05DFB42049990300BB3B2F /* PupperinoTests.xctest */,
+				9A3C654520499FE800E210F0 /* Pupperino-prd.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,12 +219,11 @@
 		9A05DFA22049990300BB3B2F /* Pupperino */ = {
 			isa = PBXGroup;
 			children = (
-				9A05DFA32049990300BB3B2F /* AppDelegate.swift */,
-				9A05DFA52049990300BB3B2F /* ViewController.swift */,
-				9A05DFA72049990300BB3B2F /* Main.storyboard */,
-				9A05DFAA2049990300BB3B2F /* Assets.xcassets */,
-				9A05DFAC2049990300BB3B2F /* LaunchScreen.storyboard */,
-				9A05DFAF2049990300BB3B2F /* Info.plist */,
+				9A3C650A20499E6F00E210F0 /* Classes */,
+				9A3C650B20499E7700E210F0 /* Constants */,
+				9A3C650E20499EC300E210F0 /* Resources */,
+				9A3C653120499FAE00E210F0 /* Pupperino-prd-Info.plist */,
+				9A05DFAF2049990300BB3B2F /* Pupperino-dev-Info.plist */,
 			);
 			path = Pupperino;
 			sourceTree = "<group>";
@@ -96,33 +237,318 @@
 			path = PupperinoTests;
 			sourceTree = "<group>";
 		};
+		9A3C650A20499E6F00E210F0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9A3C65472049A26100E210F0 /* DataEntities */,
+				9A3C654C2049A26100E210F0 /* Managers */,
+				9A3C654E2049A26100E210F0 /* Operations */,
+				9A3C655D2049A26100E210F0 /* Repositories */,
+				9A3C65672049A26100E210F0 /* Tools */,
+				9A3C656E2049A26100E210F0 /* ViewControllers */,
+				9A05DFA32049990300BB3B2F /* AppDelegate.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9A3C650B20499E7700E210F0 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				9A3C651720499F6C00E210F0 /* Constants.swift */,
+				9A3C651820499F6D00E210F0 /* Constants+DevelopmentTarget.swift */,
+				9A3C651920499F6D00E210F0 /* Constants+ProductionTarget.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		9A3C650E20499EC300E210F0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9A3C650F20499EC300E210F0 /* Assets.xcassets */,
+				9A3C651020499EC300E210F0 /* LaunchScreen.storyboard */,
+				9A3C651220499EC300E210F0 /* Main.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9A3C65472049A26100E210F0 /* DataEntities */ = {
+			isa = PBXGroup;
+			children = (
+				9A3C65482049A26100E210F0 /* ArticleEntity.swift */,
+				9A3C65492049A26100E210F0 /* ArticleEntityMock.swift */,
+				9A3C654A2049A26100E210F0 /* ArticleEntityTools.swift */,
+				9A3C654B2049A26100E210F0 /* SourceEntity.swift */,
+			);
+			path = DataEntities;
+			sourceTree = "<group>";
+		};
+		9A3C654C2049A26100E210F0 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				9A3C654D2049A26100E210F0 /* NotificationManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		9A3C654E2049A26100E210F0 /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				9A3C654F2049A26100E210F0 /* GetSourceList */,
+				9A3C65522049A26100E210F0 /* TSMBaseServerOperation.swift */,
+				9A3C65532049A26100E210F0 /* TSMBaseOperationOutput.swift */,
+				9A3C65542049A26100E210F0 /* Article */,
+				9A3C655C2049A26100E210F0 /* TSMBaseOperation.swift */,
+			);
+			path = Operations;
+			sourceTree = "<group>";
+		};
+		9A3C654F2049A26100E210F0 /* GetSourceList */ = {
+			isa = PBXGroup;
+			children = (
+				9A3C65502049A26100E210F0 /* GetSourceListOutput.swift */,
+				9A3C65512049A26100E210F0 /* GetSourceListOperation.swift */,
+			);
+			path = GetSourceList;
+			sourceTree = "<group>";
+		};
+		9A3C65542049A26100E210F0 /* Article */ = {
+			isa = PBXGroup;
+			children = (
+				9A3C65552049A26100E210F0 /* ChangeArticleFavouriteStatus */,
+				9A3C65582049A26100E210F0 /* GetArticleList */,
+			);
+			path = Article;
+			sourceTree = "<group>";
+		};
+		9A3C65552049A26100E210F0 /* ChangeArticleFavouriteStatus */ = {
+			isa = PBXGroup;
+			children = (
+				9A3C65562049A26100E210F0 /* ChangeArticleFavouriteStatusOperation.swift */,
+				9A3C65572049A26100E210F0 /* ChangeArticleFavouriteStatusInput.swift */,
+			);
+			path = ChangeArticleFavouriteStatus;
+			sourceTree = "<group>";
+		};
+		9A3C65582049A26100E210F0 /* GetArticleList */ = {
+			isa = PBXGroup;
+			children = (
+				9A3C65592049A26100E210F0 /* GetArticleListOutput.swift */,
+				9A3C655A2049A26100E210F0 /* GetArticleListOperation.swift */,
+				9A3C655B2049A26100E210F0 /* GetArticleListInput.swift */,
+			);
+			path = GetArticleList;
+			sourceTree = "<group>";
+		};
+		9A3C655D2049A26100E210F0 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				9A3C655E2049A26100E210F0 /* RealmRepository */,
+				9A3C65622049A26100E210F0 /* RepositoryProtocol.swift */,
+				9A3C65632049A26100E210F0 /* RepositoryFactory.swift */,
+				9A3C65642049A26100E210F0 /* FMDBRepository */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		9A3C655E2049A26100E210F0 /* RealmRepository */ = {
+			isa = PBXGroup;
+			children = (
+				9A3C655F2049A26100E210F0 /* RealmEntities */,
+				9A3C65612049A26100E210F0 /* RealmRepository.swift */,
+			);
+			path = RealmRepository;
+			sourceTree = "<group>";
+		};
+		9A3C655F2049A26100E210F0 /* RealmEntities */ = {
+			isa = PBXGroup;
+			children = (
+				9A3C65602049A26100E210F0 /* ArticleRealmEntity.swift */,
+			);
+			path = RealmEntities;
+			sourceTree = "<group>";
+		};
+		9A3C65642049A26100E210F0 /* FMDBRepository */ = {
+			isa = PBXGroup;
+			children = (
+				9A3C65652049A26100E210F0 /* FMDBRepository.swift */,
+				9A3C65662049A26100E210F0 /* FMDBRepositoryMock.swift */,
+			);
+			path = FMDBRepository;
+			sourceTree = "<group>";
+		};
+		9A3C65672049A26100E210F0 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				9A3C65682049A26100E210F0 /* GenericTools.swift */,
+				9A3C65692049A26100E210F0 /* String+TSMTools.swift */,
+				9A3C656A2049A26100E210F0 /* TSMThreadSafetyTools.swift */,
+				9A3C656B2049A26100E210F0 /* Array+Tools.swift */,
+				9A3C656C2049A26100E210F0 /* TSMGenericTools.swift */,
+				9A3C656D2049A26100E210F0 /* UITableView+TSMTools.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		9A3C656E2049A26100E210F0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9A3C656F2049A26100E210F0 /* BaseViewController.swift */,
+				9A3C65702049A26100E210F0 /* SourceList */,
+				9A3C65782049A26100E210F0 /* Articles */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9A3C65702049A26100E210F0 /* SourceList */ = {
+			isa = PBXGroup;
+			children = (
+				9A3C65712049A26100E210F0 /* TableViewCells */,
+				9A3C65742049A26100E210F0 /* SourceListViewController.swift */,
+				9A3C65752049A26100E210F0 /* SourceListViewController.xib */,
+				9A3C65762049A26100E210F0 /* DataModel */,
+			);
+			path = SourceList;
+			sourceTree = "<group>";
+		};
+		9A3C65712049A26100E210F0 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				9A3C65722049A26100E210F0 /* SourceListTableViewCell.swift */,
+				9A3C65732049A26100E210F0 /* SourceListTableViewCell.xib */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		9A3C65762049A26100E210F0 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				9A3C65772049A26100E210F0 /* SourceListDataModel.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		9A3C65782049A26100E210F0 /* Articles */ = {
+			isa = PBXGroup;
+			children = (
+				9A3C65792049A26100E210F0 /* ArticleList */,
+				9A3C65812049A26100E210F0 /* FavouriteArticleList */,
+				9A3C65862049A26100E210F0 /* ArticleDetails */,
+			);
+			path = Articles;
+			sourceTree = "<group>";
+		};
+		9A3C65792049A26100E210F0 /* ArticleList */ = {
+			isa = PBXGroup;
+			children = (
+				9A3C657A2049A26100E210F0 /* ArticleListViewController.swift */,
+				9A3C657B2049A26100E210F0 /* TableViewCells */,
+				9A3C657E2049A26100E210F0 /* ArticleListViewController.xib */,
+				9A3C657F2049A26100E210F0 /* DataModel */,
+			);
+			path = ArticleList;
+			sourceTree = "<group>";
+		};
+		9A3C657B2049A26100E210F0 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				9A3C657C2049A26100E210F0 /* ArticleListTableViewCell.swift */,
+				9A3C657D2049A26100E210F0 /* ArticleListTableViewCell.xib */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		9A3C657F2049A26100E210F0 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				9A3C65802049A26100E210F0 /* ArticleListDataModel.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		9A3C65812049A26100E210F0 /* FavouriteArticleList */ = {
+			isa = PBXGroup;
+			children = (
+				9A3C65822049A26100E210F0 /* FavouriteArticleListViewController.swift */,
+				9A3C65832049A26100E210F0 /* FavouriteArticleListViewController.xib */,
+				9A3C65842049A26100E210F0 /* DataModel */,
+			);
+			path = FavouriteArticleList;
+			sourceTree = "<group>";
+		};
+		9A3C65842049A26100E210F0 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				9A3C65852049A26100E210F0 /* FavouriteArticleListDataModel.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		9A3C65862049A26100E210F0 /* ArticleDetails */ = {
+			isa = PBXGroup;
+			children = (
+				9A3C65872049A26100E210F0 /* ArticleDetailsViewController.swift */,
+				9A3C65882049A26100E210F0 /* ArticleDetailsViewController.xib */,
+				9A3C65892049A26100E210F0 /* DataModel */,
+			);
+			path = ArticleDetails;
+			sourceTree = "<group>";
+		};
+		9A3C65892049A26100E210F0 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				9A3C658A2049A26100E210F0 /* ArticleDetailsDataModel.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		AB4A40415947E691DC7F68D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				20973AA7B5D4DBBE43AC1DA7 /* Pods-Pupperino.debug.xcconfig */,
+				49E58EDC3EF29BDCC0AF8FA0 /* Pods-Pupperino.release.xcconfig */,
+				1EFBBBD8667504CE993C78A7 /* Pods-PupperinoTests.debug.xcconfig */,
+				DA8186C98D0102FB27CEA0EC /* Pods-PupperinoTests.release.xcconfig */,
+				2C449BDA2A4B4881B1CA9411 /* Pods-Pupperino-dev.debug.xcconfig */,
+				BED5969F666E42EDE56E2FC7 /* Pods-Pupperino-dev.release.xcconfig */,
+				D738BF5F6ABFD9A8855E0923 /* Pods-Pupperino-prd.debug.xcconfig */,
+				C7299E022FB01C27C231371E /* Pods-Pupperino-prd.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9A05DF9F2049990300BB3B2F /* Pupperino */ = {
+		9A05DF9F2049990300BB3B2F /* Pupperino-dev */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A05DFBD2049990300BB3B2F /* Build configuration list for PBXNativeTarget "Pupperino" */;
+			buildConfigurationList = 9A05DFBD2049990300BB3B2F /* Build configuration list for PBXNativeTarget "Pupperino-dev" */;
 			buildPhases = (
+				297BC2BD80420CF4D26F85D2 /* [CP] Check Pods Manifest.lock */,
 				9A05DF9C2049990300BB3B2F /* Sources */,
 				9A05DF9D2049990300BB3B2F /* Frameworks */,
 				9A05DF9E2049990300BB3B2F /* Resources */,
+				E6497C0B59664C9D826A611C /* [CP] Embed Pods Frameworks */,
+				89F94271BC9D364AA93CB8B9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Pupperino;
+			name = "Pupperino-dev";
 			productName = Pupperino;
-			productReference = 9A05DFA02049990300BB3B2F /* Pupperino.app */;
+			productReference = 9A05DFA02049990300BB3B2F /* Pupperino-dev.app */;
 			productType = "com.apple.product-type.application";
 		};
 		9A05DFB32049990300BB3B2F /* PupperinoTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A05DFC02049990300BB3B2F /* Build configuration list for PBXNativeTarget "PupperinoTests" */;
 			buildPhases = (
+				43AFAB12D10B539FADA0D935 /* [CP] Check Pods Manifest.lock */,
 				9A05DFB02049990300BB3B2F /* Sources */,
 				9A05DFB12049990300BB3B2F /* Frameworks */,
 				9A05DFB22049990300BB3B2F /* Resources */,
+				51F525CE234149F4534EC3C1 /* [CP] Embed Pods Frameworks */,
+				17D1491839ABE82F10EAADD6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -133,6 +559,26 @@
 			productName = PupperinoTests;
 			productReference = 9A05DFB42049990300BB3B2F /* PupperinoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9A3C653220499FE800E210F0 /* Pupperino-prd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A3C654220499FE800E210F0 /* Build configuration list for PBXNativeTarget "Pupperino-prd" */;
+			buildPhases = (
+				9A3C653320499FE800E210F0 /* [CP] Check Pods Manifest.lock */,
+				9A3C653420499FE800E210F0 /* Sources */,
+				9A3C653A20499FE800E210F0 /* Frameworks */,
+				9A3C653C20499FE800E210F0 /* Resources */,
+				9A3C654020499FE800E210F0 /* [CP] Embed Pods Frameworks */,
+				9A3C654120499FE800E210F0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pupperino-prd";
+			productName = Pupperino;
+			productReference = 9A3C654520499FE800E210F0 /* Pupperino-prd.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -153,6 +599,9 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = 9A05DF9F2049990300BB3B2F;
 					};
+					9A3C653220499FE800E210F0 = {
+						ProvisioningStyle = Manual;
+					};
 				};
 			};
 			buildConfigurationList = 9A05DF9B2049990300BB3B2F /* Build configuration list for PBXProject "Pupperino" */;
@@ -168,7 +617,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9A05DF9F2049990300BB3B2F /* Pupperino */,
+				9A05DF9F2049990300BB3B2F /* Pupperino-dev */,
+				9A3C653220499FE800E210F0 /* Pupperino-prd */,
 				9A05DFB32049990300BB3B2F /* PupperinoTests */,
 			);
 		};
@@ -179,9 +629,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A05DFAE2049990300BB3B2F /* LaunchScreen.storyboard in Resources */,
-				9A05DFAB2049990300BB3B2F /* Assets.xcassets in Resources */,
-				9A05DFA92049990300BB3B2F /* Main.storyboard in Resources */,
+				9A3C65A82049A26100E210F0 /* SourceListTableViewCell.xib in Resources */,
+				9A3C65AF2049A26100E210F0 /* ArticleListViewController.xib in Resources */,
+				9A3C651620499EC300E210F0 /* Main.storyboard in Resources */,
+				9A3C65B22049A26100E210F0 /* FavouriteArticleListViewController.xib in Resources */,
+				9A3C65B52049A26100E210F0 /* ArticleDetailsViewController.xib in Resources */,
+				9A3C651420499EC300E210F0 /* Assets.xcassets in Resources */,
+				9A3C651520499EC300E210F0 /* LaunchScreen.storyboard in Resources */,
+				9A3C65AE2049A26100E210F0 /* ArticleListTableViewCell.xib in Resources */,
+				9A3C65AA2049A26100E210F0 /* SourceListViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,15 +648,237 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9A3C653C20499FE800E210F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A3C653D20499FE800E210F0 /* Main.storyboard in Resources */,
+				9A3C653E20499FE800E210F0 /* Assets.xcassets in Resources */,
+				9A3C653F20499FE800E210F0 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17D1491839ABE82F10EAADD6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PupperinoTests/Pods-PupperinoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		297BC2BD80420CF4D26F85D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pupperino-dev-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43AFAB12D10B539FADA0D935 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PupperinoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51F525CE234149F4534EC3C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PupperinoTests/Pods-PupperinoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89F94271BC9D364AA93CB8B9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pupperino-dev/Pods-Pupperino-dev-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A3C653320499FE800E210F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pupperino-prd-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A3C654020499FE800E210F0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Pupperino-prd/Pods-Pupperino-prd-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/IHKeyboardAvoiding/IHKeyboardAvoiding.framework",
+				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IHKeyboardAvoiding.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PureLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pupperino-prd/Pods-Pupperino-prd-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A3C654120499FE800E210F0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pupperino-prd/Pods-Pupperino-prd-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6497C0B59664C9D826A611C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Pupperino-dev/Pods-Pupperino-dev-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/IHKeyboardAvoiding/IHKeyboardAvoiding.framework",
+				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IHKeyboardAvoiding.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PureLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pupperino-dev/Pods-Pupperino-dev-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9A05DF9C2049990300BB3B2F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A05DFA62049990300BB3B2F /* ViewController.swift in Sources */,
+				9A3C65B12049A26100E210F0 /* FavouriteArticleListViewController.swift in Sources */,
+				9A3C658D2049A26100E210F0 /* ArticleEntityTools.swift in Sources */,
+				9A3C65932049A26100E210F0 /* TSMBaseOperationOutput.swift in Sources */,
+				9A3C65A92049A26100E210F0 /* SourceListViewController.swift in Sources */,
 				9A05DFA42049990300BB3B2F /* AppDelegate.swift in Sources */,
+				9A3C658F2049A26100E210F0 /* NotificationManager.swift in Sources */,
+				9A3C65A32049A26100E210F0 /* Array+Tools.swift in Sources */,
+				9A3C658E2049A26100E210F0 /* SourceEntity.swift in Sources */,
+				9A3C65962049A26100E210F0 /* GetArticleListOutput.swift in Sources */,
+				9A3C651B20499F6D00E210F0 /* Constants+DevelopmentTarget.swift in Sources */,
+				9A3C65A12049A26100E210F0 /* String+TSMTools.swift in Sources */,
+				9A3C659E2049A26100E210F0 /* FMDBRepository.swift in Sources */,
+				9A3C65B02049A26100E210F0 /* ArticleListDataModel.swift in Sources */,
+				9A3C65B32049A26100E210F0 /* FavouriteArticleListDataModel.swift in Sources */,
+				9A3C65A22049A26100E210F0 /* TSMThreadSafetyTools.swift in Sources */,
+				9A3C65902049A26100E210F0 /* GetSourceListOutput.swift in Sources */,
+				9A3C65A62049A26100E210F0 /* BaseViewController.swift in Sources */,
+				9A3C65B42049A26100E210F0 /* ArticleDetailsViewController.swift in Sources */,
+				9A3C65992049A26100E210F0 /* TSMBaseOperation.swift in Sources */,
+				9A3C65942049A26100E210F0 /* ChangeArticleFavouriteStatusOperation.swift in Sources */,
+				9A3C65B62049A26100E210F0 /* ArticleDetailsDataModel.swift in Sources */,
+				9A3C659B2049A26100E210F0 /* RealmRepository.swift in Sources */,
+				9A3C65A42049A26100E210F0 /* TSMGenericTools.swift in Sources */,
+				9A3C65A52049A26100E210F0 /* UITableView+TSMTools.swift in Sources */,
+				9A3C65982049A26100E210F0 /* GetArticleListInput.swift in Sources */,
+				9A3C65A72049A26100E210F0 /* SourceListTableViewCell.swift in Sources */,
+				9A3C659F2049A26100E210F0 /* FMDBRepositoryMock.swift in Sources */,
+				9A3C65AD2049A26100E210F0 /* ArticleListTableViewCell.swift in Sources */,
+				9A3C65972049A26100E210F0 /* GetArticleListOperation.swift in Sources */,
+				9A3C65AB2049A26100E210F0 /* SourceListDataModel.swift in Sources */,
+				9A3C659A2049A26100E210F0 /* ArticleRealmEntity.swift in Sources */,
+				9A3C659C2049A26100E210F0 /* RepositoryProtocol.swift in Sources */,
+				9A3C651A20499F6D00E210F0 /* Constants.swift in Sources */,
+				9A3C659D2049A26100E210F0 /* RepositoryFactory.swift in Sources */,
+				9A3C65952049A26100E210F0 /* ChangeArticleFavouriteStatusInput.swift in Sources */,
+				9A3C658B2049A26100E210F0 /* ArticleEntity.swift in Sources */,
+				9A3C65912049A26100E210F0 /* GetSourceListOperation.swift in Sources */,
+				9A3C65922049A26100E210F0 /* TSMBaseServerOperation.swift in Sources */,
+				9A3C65AC2049A26100E210F0 /* ArticleListViewController.swift in Sources */,
+				9A3C658C2049A26100E210F0 /* ArticleEntityMock.swift in Sources */,
+				9A3C65A02049A26100E210F0 /* GenericTools.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,31 +890,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9A3C653420499FE800E210F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A3C653620499FE800E210F0 /* AppDelegate.swift in Sources */,
+				9A3C653820499FE800E210F0 /* Constants+ProductionTarget.swift in Sources */,
+				9A3C653920499FE800E210F0 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		9A05DFB62049990300BB3B2F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9A05DF9F2049990300BB3B2F /* Pupperino */;
+			target = 9A05DF9F2049990300BB3B2F /* Pupperino-dev */;
 			targetProxy = 9A05DFB52049990300BB3B2F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9A05DFA72049990300BB3B2F /* Main.storyboard */ = {
+		9A3C651020499EC300E210F0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9A05DFA82049990300BB3B2F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		9A05DFAC2049990300BB3B2F /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9A05DFAD2049990300BB3B2F /* Base */,
+				9A3C651120499EC300E210F0 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9A3C651220499EC300E210F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A3C651320499EC300E210F0 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -351,13 +1039,14 @@
 		};
 		9A05DFBE2049990300BB3B2F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C449BDA2A4B4881B1CA9411 /* Pods-Pupperino-dev.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 28WL2MUN55;
-				INFOPLIST_FILE = Pupperino/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Pupperino/Pupperino-dev-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.studiolitas.Pupperino;
+				PRODUCT_BUNDLE_IDENTIFIER = com.studiolitas.Pupperino.Dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -366,13 +1055,14 @@
 		};
 		9A05DFBF2049990300BB3B2F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BED5969F666E42EDE56E2FC7 /* Pods-Pupperino-dev.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 28WL2MUN55;
-				INFOPLIST_FILE = Pupperino/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Pupperino/Pupperino-dev-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.studiolitas.Pupperino;
+				PRODUCT_BUNDLE_IDENTIFIER = com.studiolitas.Pupperino.Dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -381,6 +1071,7 @@
 		};
 		9A05DFC12049990300BB3B2F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EFBBBD8667504CE993C78A7 /* Pods-PupperinoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -398,6 +1089,7 @@
 		};
 		9A05DFC22049990300BB3B2F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA8186C98D0102FB27CEA0EC /* Pods-PupperinoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -413,6 +1105,44 @@
 			};
 			name = Release;
 		};
+		9A3C654320499FE800E210F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D738BF5F6ABFD9A8855E0923 /* Pods-Pupperino-prd.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 922H8AHW3C;
+				INFOPLIST_FILE = "$(SRCROOT)/Pupperino/Pupperino-prd-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.studiolitas.Pupperino;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8ba41edf-e581-4207-bb4f-53d39148e159";
+				PROVISIONING_PROFILE_SPECIFIER = TelesoftasInHouse_Wildcard2;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A3C654420499FE800E210F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7299E022FB01C27C231371E /* Pods-Pupperino-prd.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 922H8AHW3C;
+				INFOPLIST_FILE = "$(SRCROOT)/Pupperino/Pupperino-prd-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.studiolitas.Pupperino;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8ba41edf-e581-4207-bb4f-53d39148e159";
+				PROVISIONING_PROFILE_SPECIFIER = TelesoftasInHouse_Wildcard2;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -425,7 +1155,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A05DFBD2049990300BB3B2F /* Build configuration list for PBXNativeTarget "Pupperino" */ = {
+		9A05DFBD2049990300BB3B2F /* Build configuration list for PBXNativeTarget "Pupperino-dev" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9A05DFBE2049990300BB3B2F /* Debug */,
@@ -439,6 +1169,15 @@
 			buildConfigurations = (
 				9A05DFC12049990300BB3B2F /* Debug */,
 				9A05DFC22049990300BB3B2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A3C654220499FE800E210F0 /* Build configuration list for PBXNativeTarget "Pupperino-prd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A3C654320499FE800E210F0 /* Debug */,
+				9A3C654420499FE800E210F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
