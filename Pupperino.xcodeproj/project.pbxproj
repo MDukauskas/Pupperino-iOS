@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		36034C5287943487474CF2E4 /* Pods_PupperinoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80066ACE0BAB390A5B585E05 /* Pods_PupperinoTests.framework */; };
 		9A05DFA42049990300BB3B2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A05DFA32049990300BB3B2F /* AppDelegate.swift */; };
 		9A05DFB92049990300BB3B2F /* PupperinoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A05DFB82049990300BB3B2F /* PupperinoTests.swift */; };
 		9A3C651420499EC300E210F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A3C650F20499EC300E210F0 /* Assets.xcassets */; };
@@ -18,7 +17,6 @@
 		9A3C653620499FE800E210F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A05DFA32049990300BB3B2F /* AppDelegate.swift */; };
 		9A3C653820499FE800E210F0 /* Constants+ProductionTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C651920499F6D00E210F0 /* Constants+ProductionTarget.swift */; };
 		9A3C653920499FE800E210F0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C651720499F6C00E210F0 /* Constants.swift */; };
-		9A3C653B20499FE800E210F0 /* Pods_Pupperino.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27BAC302B1033B8900094A74 /* Pods_Pupperino.framework */; };
 		9A3C653D20499FE800E210F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A3C651220499EC300E210F0 /* Main.storyboard */; };
 		9A3C653E20499FE800E210F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A3C650F20499EC300E210F0 /* Assets.xcassets */; };
 		9A3C653F20499FE800E210F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A3C651020499EC300E210F0 /* LaunchScreen.storyboard */; };
@@ -66,8 +64,14 @@
 		9A3C65B42049A26100E210F0 /* ArticleDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C65872049A26100E210F0 /* ArticleDetailsViewController.swift */; };
 		9A3C65B52049A26100E210F0 /* ArticleDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A3C65882049A26100E210F0 /* ArticleDetailsViewController.xib */; };
 		9A3C65B62049A26100E210F0 /* ArticleDetailsDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C658A2049A26100E210F0 /* ArticleDetailsDataModel.swift */; };
-		A713476F0B61E2BBE2C2F3CF /* Pods_Pupperino.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27BAC302B1033B8900094A74 /* Pods_Pupperino.framework */; };
-		ADB6EF98B4DEF35EBF96ACF9 /* Pods_Pupperino_prd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D8049D40751780ADC1F6E32 /* Pods_Pupperino_prd.framework */; };
+		9AA572BB2049E1690060F3BA /* TrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA572B92049E1690060F3BA /* TrackerViewController.swift */; };
+		9AA572BC2049E1690060F3BA /* TrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA572B92049E1690060F3BA /* TrackerViewController.swift */; };
+		9AA572BD2049E1690060F3BA /* TrackerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AA572BA2049E1690060F3BA /* TrackerViewController.xib */; };
+		9AA572BE2049E1690060F3BA /* TrackerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AA572BA2049E1690060F3BA /* TrackerViewController.xib */; };
+		9AA572C02049F7E20060F3BA /* ExerciseEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA572BF2049F7E20060F3BA /* ExerciseEntity.swift */; };
+		9AA572C12049F7E20060F3BA /* ExerciseEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA572BF2049F7E20060F3BA /* ExerciseEntity.swift */; };
+		9AA572C32049FAC60060F3BA /* ExerciseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA572C22049FAC60060F3BA /* ExerciseManager.swift */; };
+		9AA572C42049FAC60060F3BA /* ExerciseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA572C22049FAC60060F3BA /* ExerciseManager.swift */; };
 		D207DB59D8984725D284D275 /* Pods_Pupperino_dev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D39C42C10BD489A80681008E /* Pods_Pupperino_dev.framework */; };
 /* End PBXBuildFile section */
 
@@ -84,11 +88,8 @@
 /* Begin PBXFileReference section */
 		1EFBBBD8667504CE993C78A7 /* Pods-PupperinoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PupperinoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PupperinoTests/Pods-PupperinoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		20973AA7B5D4DBBE43AC1DA7 /* Pods-Pupperino.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pupperino.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pupperino/Pods-Pupperino.debug.xcconfig"; sourceTree = "<group>"; };
-		27BAC302B1033B8900094A74 /* Pods_Pupperino.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pupperino.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C449BDA2A4B4881B1CA9411 /* Pods-Pupperino-dev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pupperino-dev.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pupperino-dev/Pods-Pupperino-dev.debug.xcconfig"; sourceTree = "<group>"; };
-		2D8049D40751780ADC1F6E32 /* Pods_Pupperino_prd.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pupperino_prd.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49E58EDC3EF29BDCC0AF8FA0 /* Pods-Pupperino.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pupperino.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pupperino/Pods-Pupperino.release.xcconfig"; sourceTree = "<group>"; };
-		80066ACE0BAB390A5B585E05 /* Pods_PupperinoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PupperinoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A05DFA02049990300BB3B2F /* Pupperino-dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pupperino-dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A05DFA32049990300BB3B2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A05DFAF2049990300BB3B2F /* Pupperino-dev-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pupperino-dev-Info.plist"; sourceTree = "<group>"; };
@@ -147,6 +148,10 @@
 		9A3C65872049A26100E210F0 /* ArticleDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleDetailsViewController.swift; sourceTree = "<group>"; };
 		9A3C65882049A26100E210F0 /* ArticleDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArticleDetailsViewController.xib; sourceTree = "<group>"; };
 		9A3C658A2049A26100E210F0 /* ArticleDetailsDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleDetailsDataModel.swift; sourceTree = "<group>"; };
+		9AA572B92049E1690060F3BA /* TrackerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerViewController.swift; sourceTree = "<group>"; };
+		9AA572BA2049E1690060F3BA /* TrackerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrackerViewController.xib; sourceTree = "<group>"; };
+		9AA572BF2049F7E20060F3BA /* ExerciseEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseEntity.swift; sourceTree = "<group>"; };
+		9AA572C22049FAC60060F3BA /* ExerciseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseManager.swift; sourceTree = "<group>"; };
 		BED5969F666E42EDE56E2FC7 /* Pods-Pupperino-dev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pupperino-dev.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pupperino-dev/Pods-Pupperino-dev.release.xcconfig"; sourceTree = "<group>"; };
 		C7299E022FB01C27C231371E /* Pods-Pupperino-prd.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pupperino-prd.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pupperino-prd/Pods-Pupperino-prd.release.xcconfig"; sourceTree = "<group>"; };
 		D39C42C10BD489A80681008E /* Pods_Pupperino_dev.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pupperino_dev.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -159,7 +164,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A713476F0B61E2BBE2C2F3CF /* Pods_Pupperino.framework in Frameworks */,
 				D207DB59D8984725D284D275 /* Pods_Pupperino_dev.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -168,7 +172,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36034C5287943487474CF2E4 /* Pods_PupperinoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,8 +179,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A3C653B20499FE800E210F0 /* Pods_Pupperino.framework in Frameworks */,
-				ADB6EF98B4DEF35EBF96ACF9 /* Pods_Pupperino_prd.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,10 +188,7 @@
 		6D59069FD9A4009ECECA5918 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				27BAC302B1033B8900094A74 /* Pods_Pupperino.framework */,
-				80066ACE0BAB390A5B585E05 /* Pods_PupperinoTests.framework */,
 				D39C42C10BD489A80681008E /* Pods_Pupperino_dev.framework */,
-				2D8049D40751780ADC1F6E32 /* Pods_Pupperino_prd.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -278,6 +276,7 @@
 				9A3C65492049A26100E210F0 /* ArticleEntityMock.swift */,
 				9A3C654A2049A26100E210F0 /* ArticleEntityTools.swift */,
 				9A3C654B2049A26100E210F0 /* SourceEntity.swift */,
+				9AA572BF2049F7E20060F3BA /* ExerciseEntity.swift */,
 			);
 			path = DataEntities;
 			sourceTree = "<group>";
@@ -286,6 +285,7 @@
 			isa = PBXGroup;
 			children = (
 				9A3C654D2049A26100E210F0 /* NotificationManager.swift */,
+				9AA572C22049FAC60060F3BA /* ExerciseManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -392,6 +392,7 @@
 		9A3C656E2049A26100E210F0 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				9AA572B82049E14E0060F3BA /* Tracker */,
 				9A3C656F2049A26100E210F0 /* BaseViewController.swift */,
 				9A3C65702049A26100E210F0 /* SourceList */,
 				9A3C65782049A26100E210F0 /* Articles */,
@@ -499,6 +500,15 @@
 				9A3C658A2049A26100E210F0 /* ArticleDetailsDataModel.swift */,
 			);
 			path = DataModel;
+			sourceTree = "<group>";
+		};
+		9AA572B82049E14E0060F3BA /* Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				9AA572B92049E1690060F3BA /* TrackerViewController.swift */,
+				9AA572BA2049E1690060F3BA /* TrackerViewController.xib */,
+			);
+			path = Tracker;
 			sourceTree = "<group>";
 		};
 		AB4A40415947E691DC7F68D0 /* Pods */ = {
@@ -638,6 +648,7 @@
 				9A3C651520499EC300E210F0 /* LaunchScreen.storyboard in Resources */,
 				9A3C65AE2049A26100E210F0 /* ArticleListTableViewCell.xib in Resources */,
 				9A3C65AA2049A26100E210F0 /* SourceListViewController.xib in Resources */,
+				9AA572BD2049E1690060F3BA /* TrackerViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -653,6 +664,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A3C653D20499FE800E210F0 /* Main.storyboard in Resources */,
+				9AA572BE2049E1690060F3BA /* TrackerViewController.xib in Resources */,
 				9A3C653E20499FE800E210F0 /* Assets.xcassets in Resources */,
 				9A3C653F20499FE800E210F0 /* LaunchScreen.storyboard in Resources */,
 			);
@@ -848,6 +860,7 @@
 				9A3C658E2049A26100E210F0 /* SourceEntity.swift in Sources */,
 				9A3C65962049A26100E210F0 /* GetArticleListOutput.swift in Sources */,
 				9A3C651B20499F6D00E210F0 /* Constants+DevelopmentTarget.swift in Sources */,
+				9AA572C32049FAC60060F3BA /* ExerciseManager.swift in Sources */,
 				9A3C65A12049A26100E210F0 /* String+TSMTools.swift in Sources */,
 				9A3C659E2049A26100E210F0 /* FMDBRepository.swift in Sources */,
 				9A3C65B02049A26100E210F0 /* ArticleListDataModel.swift in Sources */,
@@ -861,6 +874,7 @@
 				9A3C65B62049A26100E210F0 /* ArticleDetailsDataModel.swift in Sources */,
 				9A3C659B2049A26100E210F0 /* RealmRepository.swift in Sources */,
 				9A3C65A42049A26100E210F0 /* TSMGenericTools.swift in Sources */,
+				9AA572C02049F7E20060F3BA /* ExerciseEntity.swift in Sources */,
 				9A3C65A52049A26100E210F0 /* UITableView+TSMTools.swift in Sources */,
 				9A3C65982049A26100E210F0 /* GetArticleListInput.swift in Sources */,
 				9A3C65A72049A26100E210F0 /* SourceListTableViewCell.swift in Sources */,
@@ -871,6 +885,7 @@
 				9A3C659A2049A26100E210F0 /* ArticleRealmEntity.swift in Sources */,
 				9A3C659C2049A26100E210F0 /* RepositoryProtocol.swift in Sources */,
 				9A3C651A20499F6D00E210F0 /* Constants.swift in Sources */,
+				9AA572BB2049E1690060F3BA /* TrackerViewController.swift in Sources */,
 				9A3C659D2049A26100E210F0 /* RepositoryFactory.swift in Sources */,
 				9A3C65952049A26100E210F0 /* ChangeArticleFavouriteStatusInput.swift in Sources */,
 				9A3C658B2049A26100E210F0 /* ArticleEntity.swift in Sources */,
@@ -894,9 +909,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AA572C42049FAC60060F3BA /* ExerciseManager.swift in Sources */,
 				9A3C653620499FE800E210F0 /* AppDelegate.swift in Sources */,
+				9AA572BC2049E1690060F3BA /* TrackerViewController.swift in Sources */,
 				9A3C653820499FE800E210F0 /* Constants+ProductionTarget.swift in Sources */,
 				9A3C653920499FE800E210F0 /* Constants.swift in Sources */,
+				9AA572C12049F7E20060F3BA /* ExerciseEntity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
