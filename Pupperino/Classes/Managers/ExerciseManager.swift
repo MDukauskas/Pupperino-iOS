@@ -122,7 +122,6 @@ class ExerciseManager: NSObject {
         }
         
         delegate.exerciseManager(self, saved: activeExercise)
-        self.activeExercise = nil
     }
     
     @objc private func tick() {

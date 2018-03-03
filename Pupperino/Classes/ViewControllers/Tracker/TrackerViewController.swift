@@ -20,6 +20,8 @@ class TrackerViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        title = "Exercise"
+        
         exerciseManager = ExerciseManager(delegate: self)
     }
     
@@ -31,6 +33,9 @@ class TrackerViewController: UIViewController {
     
     @IBAction func touchUpInsideStopButton(_ sender: Any) {
         exerciseManager.stop()
+        recordButton.isSelected = false
+        timeLabel.text = "00:00"
+        distanceLabel.text = "0.00m"
     }
 }
 
@@ -43,6 +48,8 @@ extension TrackerViewController: ExerciseManagerDelegate {
     
     func exerciseManager(_ manager: ExerciseManager, saved exercise: ExerciseEntity) {
         print("Saved exercise: \(exercise)")
+        timeLabel.text = "00:00"
+        distanceLabel.text = "0.00m"
     }
     
     func exerciseManager(_ manager: ExerciseManager, didUpdateDuration duration: TimeInterval, distance: Double) {
@@ -58,6 +65,6 @@ extension TrackerViewController: ExerciseManagerDelegate {
     }
     
     private func updateDistance(_ distance: Double) {
-        distanceLabel.text = String(format:"%.2f", distance)
+        distanceLabel.text = String(format:"%.2fm", distance)
     }
 }
