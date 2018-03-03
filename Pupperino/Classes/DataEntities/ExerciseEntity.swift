@@ -14,16 +14,20 @@ import RealmSwift
 class ExerciseEntity: Object {
     var startDate: Date!
     var endDate: Date?
-    var updateDate: Date!
+    var updateDate: Date?
     var distance = 0.0
     var duration: TimeInterval = 0.0
     var locations = [CLLocation]()
+
+    open override class func ignoredProperties() -> [String] {
+        return ["updateDate"]
+    }
 
     required init() {
         super.init()
         startDate = Date()
         endDate = nil
-        updateDate = Date()
+        updateDate = nil
         distance = 0.0
         duration = 0.0
         locations = [CLLocation]()
@@ -42,9 +46,14 @@ class ExerciseEntity: Object {
     }
     
     func updateDuration() {
-        let previousUpdateDate = updateDate
+        guard let previousUpdateDate = updateDate else {
+            updateDate = Date()
+            return
+        }
+        
         updateDate = Date()
-        self.duration += updateDate.timeIntervalSince(previousUpdateDate!)
+        let delta = updateDate!.timeIntervalSince(previousUpdateDate)
+        self.duration += delta
     }
     
     func addLocation(_ location: CLLocation) {
