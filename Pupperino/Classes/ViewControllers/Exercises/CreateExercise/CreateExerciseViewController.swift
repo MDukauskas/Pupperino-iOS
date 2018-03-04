@@ -1,5 +1,5 @@
 //
-//  TrackerViewController.swift
+//  CreateExerciseViewController.swift
 //  Pupperino
 //
 //  Created by Paulius Cesekas on 02/03/2018.
@@ -9,7 +9,7 @@
 import UIKit
 import CoreLocation
 
-class TrackerViewController: UIViewController {
+class CreateExerciseViewController: UIViewController {
     @IBOutlet weak var recordButton: UIButton!
     @IBOutlet weak var stopButton: UIButton!
     @IBOutlet weak var timeLabel: UILabel!
@@ -20,8 +20,8 @@ class TrackerViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        title = "Exercise"
-        
+        title = "Create Exercise".localized
+
         exerciseManager = ExerciseManager(delegate: self)
     }
     
@@ -37,12 +37,21 @@ class TrackerViewController: UIViewController {
         timeLabel.text = "00:00"
         distanceLabel.text = "0.00m"
     }
+    
+    // MARK: - UITabBar controller
+    static var tabBarController: UIViewController {
+        let trackerViewController = CreateExerciseViewController()
+        let navigationController = UINavigationController(rootViewController: trackerViewController)
+        navigationController.tabBarItem.title = "Create Exercise".localized
+        navigationController.tabBarItem.image = #imageLiteral(resourceName: "tabbar_favorite_icon")
+        return navigationController
+    }
 }
 
 // MARK: - ExerciseManagerDelegate
-extension TrackerViewController: ExerciseManagerDelegate {
+extension CreateExerciseViewController: ExerciseManagerDelegate {
     func exerciseManagerFailedToAuthorize(_ manager: ExerciseManager) {
-        let alert = UIAlertController(title: "Failed to authorise", message: "To use tracking you need to authorise LocationManager", preferredStyle: .alert)
+        let alert = UIAlertController(title: "Failed to authorise".localized, message: "To use tracking you need to authorise LocationManager".localized, preferredStyle: .alert)
         present(alert, animated: true)
     }
     

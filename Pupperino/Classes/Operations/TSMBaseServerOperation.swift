@@ -102,7 +102,7 @@ class TSMBaseServerOperation: TSMBaseOperation, URLSessionDelegate {
         return false
     }
     
-    func parseResponseDict(_ responseDict: [String: Any]) {
+    func parseResponseDictionary(_ responseDictionary: [String: Any]) {
         // Overriding class is responsible to:
         // * implement any kind of parsing
         // * UPDATING `output.isSuccessful` to proper state
@@ -162,34 +162,34 @@ class TSMBaseServerOperation: TSMBaseOperation, URLSessionDelegate {
         // 2. custom - provided by overriding operation
         //
         
-        var parametersDict: [String: String] = [:]
+        var parametersDictionary: [String: String] = [:]
         
         // 1. Common values
-        let commonDict = commonUrlParametersDictionary()
+        let commonDictionary = commonUrlParametersDictionary()
         
-        if let commonDict = commonDict {
-            for (key, value) in commonDict {
-                parametersDict.updateValue(value, forKey: key as String)
+        if let commonDictionary = commonDictionary {
+            for (key, value) in commonDictionary {
+                parametersDictionary.updateValue(value, forKey: key as String)
             }
         }
         
         // 2. Additional values
-        let additionalDict = additionalUrlParametersDictionary()
+        let additionalDictionary = additionalUrlParametersDictionary()
         
-        if let additionalDict = additionalDict {
+        if let additionalDictionary = additionalDictionary {
             // add or replace values (in case keys are duplicate)
-            for (key, value) in additionalDict {
-                parametersDict.updateValue(value, forKey: key as String)
+            for (key, value) in additionalDictionary {
+                parametersDictionary.updateValue(value, forKey: key as String)
             }
         }
         
         // 3. Generate list of URLQueryItems
-        if parametersDict.isEmpty {
+        if parametersDictionary.isEmpty {
             return []
         }
         
         var queryItemsList: [URLQueryItem] = []
-        for (key, value) in parametersDict {
+        for (key, value) in parametersDictionary {
             queryItemsList.append(URLQueryItem(name: key, value: value))
         }
         
@@ -199,12 +199,12 @@ class TSMBaseServerOperation: TSMBaseOperation, URLSessionDelegate {
     private func commonUrlParametersDictionary() -> [String: String]? {
         //  SAMPLE:
         //
-        //  var commonDict: [String: String] = [:]
+        //  var commonDictionary: [String: String] = [:]
         //
-        //  commonDict["v"] = String(kServerAPIVersion)
-        //  commonDict["lang"] = GenericTools.usedLanguageCode()
+        //  commonDictionary["v"] = String(kServerAPIVersion)
+        //  commonDictionary["lang"] = GenericTools.usedLanguageCode()
         //
-        //  return commonDict
+        //  return commonDictionary
 
         return nil
     }
@@ -216,37 +216,37 @@ class TSMBaseServerOperation: TSMBaseOperation, URLSessionDelegate {
         // 2. Values provided by overriding class
         //
         
-        var bodyDict: [String: Any] = [:]
+        var bodyDictionary: [String: Any] = [:]
         
         // 1. Common values
-        let commonDict = commonBodyDictionary()
+        let commonDictionary = commonBodyDictionary()
         
-        if let commonDict = commonDict {
-            for (key, value) in commonDict {
-                bodyDict.updateValue(value, forKey: key as String)
+        if let commonDictionary = commonDictionary {
+            for (key, value) in commonDictionary {
+                bodyDictionary.updateValue(value, forKey: key as String)
             }
         }
         
         // 2. Additional values
-        let additionalDict = additionalBodyDictionary()
+        let additionalDictionary = additionalBodyDictionary()
         
-        if let additionalDict = additionalDict {
+        if let additionalDictionary = additionalDictionary {
             // add or replace values
-            for (key, value) in additionalDict {
-                bodyDict.updateValue(value, forKey: key as String)
+            for (key, value) in additionalDictionary {
+                bodyDictionary.updateValue(value, forKey: key as String)
             }
         }
         
-        guard bodyDict.isEmpty == false else {
+        guard bodyDictionary.isEmpty == false else {
             return nil
         }
         
         // 3. Generate NSData
         let jsonData: Data?
         do {
-            jsonData = try JSONSerialization.data(withJSONObject: bodyDict, options: [])
+            jsonData = try JSONSerialization.data(withJSONObject: bodyDictionary, options: [])
         } catch {
-            print("\(NSStringFromClass(type(of: self))) WARNING! could not generate jsonData \(error.localizedDescription) from dictionary: \(bodyDict)")
+            print("\(NSStringFromClass(type(of: self))) WARNING! could not generate jsonData \(error.localizedDescription) from dictionary: \(bodyDictionary)")
             return nil
         }
         
@@ -310,13 +310,13 @@ class TSMBaseServerOperation: TSMBaseOperation, URLSessionDelegate {
         
         var dictionaryToParse: [String: Any]!
         do {
-            guard let responseDict: [String: Any] = try JSONSerialization.jsonObject(with: data, options: []) as? [String: Any]  else {
-                print("\(NSStringFromClass(type(of: self))) ERROR! retrieved unexpected jsonDict structure: \(String(describing: String(data: data, encoding: .utf8)))")
+            guard let responseDictionary: [String: Any] = try JSONSerialization.jsonObject(with: data, options: []) as? [String: Any]  else {
+                print("\(NSStringFromClass(type(of: self))) ERROR! retrieved unexpected jsonDictionary structure: \(String(describing: String(data: data, encoding: .utf8)))")
                 output.isSuccessful = false
                 return
             }
             
-            dictionaryToParse = responseDict
+            dictionaryToParse = responseDictionary
         } catch {
             print("\(NSStringFromClass(type(of: self))) ERROR! \(error) - could not make jsonObject from data \(String(describing: String(data: data, encoding: .utf8)))")
             output.isSuccessful = false
@@ -330,6 +330,6 @@ class TSMBaseServerOperation: TSMBaseOperation, URLSessionDelegate {
         //
         
         // Trigger actual parsing (overriding class is responsible to implement it)
-        parseResponseDict(dictionaryToParse)
+        parseResponseDictionary(dictionaryToParse)
     }
 }

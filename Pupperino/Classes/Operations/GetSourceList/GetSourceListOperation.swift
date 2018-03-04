@@ -28,33 +28,14 @@ class GetSourceListOperation: TSMBaseServerOperation {
     }
     
     override func additionalUrlParametersDictionary() -> [String: String]? {
-        return ["apiKey": Constants.Server.newsApiKey]
+        return nil
     }
     
-    override func parseResponseDict(_ responseDict: [String: Any]) {
-        
-        guard let sourceDictList = responseDict["sources"] as? [[String: Any]] else {
-            log("WARNING: could not parse `sources` from response dictionary \(responseDict)")
-            return
-        }
-        
-        var sourceList: [SourceEntity] = []
-        sourceList.reserveCapacity(sourceDictList.count)
-        
-        for sourceDict in sourceDictList {
-            if let source = SourceEntity(withDictionary: sourceDict) {
-                sourceList.append(source)
-            } else {
-                log("WARNING: could not parse source from source dictionary \(sourceDict)")
-            }
-        }
-        
-        output().sourceList = sourceList
-        output.isSuccessful = true
+    override func parseResponseDictionary(_ responseDictionary: [String : Any]) {
+        return
     }
     
     // MARK: - Public helpers
-    
     func output() -> GetSourceListOutput {
         // swiftlint:disable force_cast
         return output as! GetSourceListOutput

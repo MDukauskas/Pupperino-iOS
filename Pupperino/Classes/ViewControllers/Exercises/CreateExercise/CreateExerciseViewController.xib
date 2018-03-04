@@ -12,7 +12,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TrackerViewController" customModule="Pupperino_dev" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CreateExerciseViewController" customModule="Pupperino_dev" customModuleProvider="target">
             <connections>
                 <outlet property="distanceLabel" destination="t42-vO-pfV" id="A6z-5Y-801"/>
                 <outlet property="recordButton" destination="Mcs-Uj-7GB" id="bL3-Ir-qBd"/>

@@ -31,9 +31,6 @@
 		9A3C65932049A26100E210F0 /* TSMBaseOperationOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C65532049A26100E210F0 /* TSMBaseOperationOutput.swift */; };
 		9A3C65942049A26100E210F0 /* ChangeArticleFavouriteStatusOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C65562049A26100E210F0 /* ChangeArticleFavouriteStatusOperation.swift */; };
 		9A3C65952049A26100E210F0 /* ChangeArticleFavouriteStatusInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C65572049A26100E210F0 /* ChangeArticleFavouriteStatusInput.swift */; };
-		9A3C65962049A26100E210F0 /* GetArticleListOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C65592049A26100E210F0 /* GetArticleListOutput.swift */; };
-		9A3C65972049A26100E210F0 /* GetArticleListOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C655A2049A26100E210F0 /* GetArticleListOperation.swift */; };
-		9A3C65982049A26100E210F0 /* GetArticleListInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C655B2049A26100E210F0 /* GetArticleListInput.swift */; };
 		9A3C65992049A26100E210F0 /* TSMBaseOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C655C2049A26100E210F0 /* TSMBaseOperation.swift */; };
 		9A3C659A2049A26100E210F0 /* ArticleRealmEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C65602049A26100E210F0 /* ArticleRealmEntity.swift */; };
 		9A3C659B2049A26100E210F0 /* RealmRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C65612049A26100E210F0 /* RealmRepository.swift */; };
@@ -48,30 +45,28 @@
 		9A3C65A42049A26100E210F0 /* TSMGenericTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C656C2049A26100E210F0 /* TSMGenericTools.swift */; };
 		9A3C65A52049A26100E210F0 /* UITableView+TSMTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C656D2049A26100E210F0 /* UITableView+TSMTools.swift */; };
 		9A3C65A62049A26100E210F0 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C656F2049A26100E210F0 /* BaseViewController.swift */; };
-		9A3C65A72049A26100E210F0 /* SourceListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C65722049A26100E210F0 /* SourceListTableViewCell.swift */; };
-		9A3C65A82049A26100E210F0 /* SourceListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A3C65732049A26100E210F0 /* SourceListTableViewCell.xib */; };
-		9A3C65A92049A26100E210F0 /* SourceListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C65742049A26100E210F0 /* SourceListViewController.swift */; };
-		9A3C65AA2049A26100E210F0 /* SourceListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A3C65752049A26100E210F0 /* SourceListViewController.xib */; };
-		9A3C65AB2049A26100E210F0 /* SourceListDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C65772049A26100E210F0 /* SourceListDataModel.swift */; };
-		9A3C65AC2049A26100E210F0 /* ArticleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C657A2049A26100E210F0 /* ArticleListViewController.swift */; };
-		9A3C65AD2049A26100E210F0 /* ArticleListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C657C2049A26100E210F0 /* ArticleListTableViewCell.swift */; };
-		9A3C65AE2049A26100E210F0 /* ArticleListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A3C657D2049A26100E210F0 /* ArticleListTableViewCell.xib */; };
-		9A3C65AF2049A26100E210F0 /* ArticleListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A3C657E2049A26100E210F0 /* ArticleListViewController.xib */; };
-		9A3C65B02049A26100E210F0 /* ArticleListDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C65802049A26100E210F0 /* ArticleListDataModel.swift */; };
-		9A3C65B12049A26100E210F0 /* FavouriteArticleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C65822049A26100E210F0 /* FavouriteArticleListViewController.swift */; };
-		9A3C65B22049A26100E210F0 /* FavouriteArticleListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A3C65832049A26100E210F0 /* FavouriteArticleListViewController.xib */; };
-		9A3C65B32049A26100E210F0 /* FavouriteArticleListDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C65852049A26100E210F0 /* FavouriteArticleListDataModel.swift */; };
-		9A3C65B42049A26100E210F0 /* ArticleDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C65872049A26100E210F0 /* ArticleDetailsViewController.swift */; };
-		9A3C65B52049A26100E210F0 /* ArticleDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A3C65882049A26100E210F0 /* ArticleDetailsViewController.xib */; };
-		9A3C65B62049A26100E210F0 /* ArticleDetailsDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C658A2049A26100E210F0 /* ArticleDetailsDataModel.swift */; };
-		9AA572BB2049E1690060F3BA /* TrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA572B92049E1690060F3BA /* TrackerViewController.swift */; };
-		9AA572BC2049E1690060F3BA /* TrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA572B92049E1690060F3BA /* TrackerViewController.swift */; };
-		9AA572BD2049E1690060F3BA /* TrackerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AA572BA2049E1690060F3BA /* TrackerViewController.xib */; };
-		9AA572BE2049E1690060F3BA /* TrackerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AA572BA2049E1690060F3BA /* TrackerViewController.xib */; };
+		9AA572BB2049E1690060F3BA /* CreateExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA572B92049E1690060F3BA /* CreateExerciseViewController.swift */; };
+		9AA572BC2049E1690060F3BA /* CreateExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA572B92049E1690060F3BA /* CreateExerciseViewController.swift */; };
+		9AA572BD2049E1690060F3BA /* CreateExerciseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AA572BA2049E1690060F3BA /* CreateExerciseViewController.xib */; };
+		9AA572BE2049E1690060F3BA /* CreateExerciseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AA572BA2049E1690060F3BA /* CreateExerciseViewController.xib */; };
 		9AA572C02049F7E20060F3BA /* ExerciseEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA572BF2049F7E20060F3BA /* ExerciseEntity.swift */; };
 		9AA572C12049F7E20060F3BA /* ExerciseEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA572BF2049F7E20060F3BA /* ExerciseEntity.swift */; };
 		9AA572C32049FAC60060F3BA /* ExerciseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA572C22049FAC60060F3BA /* ExerciseManager.swift */; };
 		9AA572C42049FAC60060F3BA /* ExerciseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA572C22049FAC60060F3BA /* ExerciseManager.swift */; };
+		9AA572C8204AD0ED0060F3BA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA572C6204AD0ED0060F3BA /* MainViewController.swift */; };
+		9AA572C9204AD0ED0060F3BA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA572C6204AD0ED0060F3BA /* MainViewController.swift */; };
+		9AA572CA204AD0ED0060F3BA /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AA572C7204AD0ED0060F3BA /* MainViewController.xib */; };
+		9AA572CB204AD0ED0060F3BA /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AA572C7204AD0ED0060F3BA /* MainViewController.xib */; };
+		9AA572CF204ADF7D0060F3BA /* ExerciseListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA572CD204ADF7D0060F3BA /* ExerciseListViewController.swift */; };
+		9AA572D0204ADF7D0060F3BA /* ExerciseListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA572CD204ADF7D0060F3BA /* ExerciseListViewController.swift */; };
+		9AA572D1204ADF7D0060F3BA /* ExerciseListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AA572CE204ADF7D0060F3BA /* ExerciseListViewController.xib */; };
+		9AA572D2204ADF7D0060F3BA /* ExerciseListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AA572CE204ADF7D0060F3BA /* ExerciseListViewController.xib */; };
+		9AA572DC204AE92E0060F3BA /* GetExerciseListInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA572D9204AE92E0060F3BA /* GetExerciseListInput.swift */; };
+		9AA572DD204AE92E0060F3BA /* GetExerciseListInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA572D9204AE92E0060F3BA /* GetExerciseListInput.swift */; };
+		9AA572DE204AE92E0060F3BA /* GetExerciseListOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA572DA204AE92E0060F3BA /* GetExerciseListOutput.swift */; };
+		9AA572DF204AE92E0060F3BA /* GetExerciseListOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA572DA204AE92E0060F3BA /* GetExerciseListOutput.swift */; };
+		9AA572E0204AE92E0060F3BA /* GetExerciseListOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA572DB204AE92E0060F3BA /* GetExerciseListOperation.swift */; };
+		9AA572E1204AE92E0060F3BA /* GetExerciseListOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA572DB204AE92E0060F3BA /* GetExerciseListOperation.swift */; };
 		D207DB59D8984725D284D275 /* Pods_Pupperino_dev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D39C42C10BD489A80681008E /* Pods_Pupperino_dev.framework */; };
 /* End PBXBuildFile section */
 
@@ -115,9 +110,6 @@
 		9A3C65532049A26100E210F0 /* TSMBaseOperationOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSMBaseOperationOutput.swift; sourceTree = "<group>"; };
 		9A3C65562049A26100E210F0 /* ChangeArticleFavouriteStatusOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeArticleFavouriteStatusOperation.swift; sourceTree = "<group>"; };
 		9A3C65572049A26100E210F0 /* ChangeArticleFavouriteStatusInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeArticleFavouriteStatusInput.swift; sourceTree = "<group>"; };
-		9A3C65592049A26100E210F0 /* GetArticleListOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetArticleListOutput.swift; sourceTree = "<group>"; };
-		9A3C655A2049A26100E210F0 /* GetArticleListOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetArticleListOperation.swift; sourceTree = "<group>"; };
-		9A3C655B2049A26100E210F0 /* GetArticleListInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetArticleListInput.swift; sourceTree = "<group>"; };
 		9A3C655C2049A26100E210F0 /* TSMBaseOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSMBaseOperation.swift; sourceTree = "<group>"; };
 		9A3C65602049A26100E210F0 /* ArticleRealmEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleRealmEntity.swift; sourceTree = "<group>"; };
 		9A3C65612049A26100E210F0 /* RealmRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmRepository.swift; sourceTree = "<group>"; };
@@ -132,26 +124,17 @@
 		9A3C656C2049A26100E210F0 /* TSMGenericTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSMGenericTools.swift; sourceTree = "<group>"; };
 		9A3C656D2049A26100E210F0 /* UITableView+TSMTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+TSMTools.swift"; sourceTree = "<group>"; };
 		9A3C656F2049A26100E210F0 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
-		9A3C65722049A26100E210F0 /* SourceListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SourceListTableViewCell.swift; sourceTree = "<group>"; };
-		9A3C65732049A26100E210F0 /* SourceListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SourceListTableViewCell.xib; sourceTree = "<group>"; };
-		9A3C65742049A26100E210F0 /* SourceListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SourceListViewController.swift; sourceTree = "<group>"; };
-		9A3C65752049A26100E210F0 /* SourceListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SourceListViewController.xib; sourceTree = "<group>"; };
-		9A3C65772049A26100E210F0 /* SourceListDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SourceListDataModel.swift; sourceTree = "<group>"; };
-		9A3C657A2049A26100E210F0 /* ArticleListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleListViewController.swift; sourceTree = "<group>"; };
-		9A3C657C2049A26100E210F0 /* ArticleListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleListTableViewCell.swift; sourceTree = "<group>"; };
-		9A3C657D2049A26100E210F0 /* ArticleListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArticleListTableViewCell.xib; sourceTree = "<group>"; };
-		9A3C657E2049A26100E210F0 /* ArticleListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArticleListViewController.xib; sourceTree = "<group>"; };
-		9A3C65802049A26100E210F0 /* ArticleListDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleListDataModel.swift; sourceTree = "<group>"; };
-		9A3C65822049A26100E210F0 /* FavouriteArticleListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavouriteArticleListViewController.swift; sourceTree = "<group>"; };
-		9A3C65832049A26100E210F0 /* FavouriteArticleListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FavouriteArticleListViewController.xib; sourceTree = "<group>"; };
-		9A3C65852049A26100E210F0 /* FavouriteArticleListDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavouriteArticleListDataModel.swift; sourceTree = "<group>"; };
-		9A3C65872049A26100E210F0 /* ArticleDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleDetailsViewController.swift; sourceTree = "<group>"; };
-		9A3C65882049A26100E210F0 /* ArticleDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArticleDetailsViewController.xib; sourceTree = "<group>"; };
-		9A3C658A2049A26100E210F0 /* ArticleDetailsDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleDetailsDataModel.swift; sourceTree = "<group>"; };
-		9AA572B92049E1690060F3BA /* TrackerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerViewController.swift; sourceTree = "<group>"; };
-		9AA572BA2049E1690060F3BA /* TrackerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrackerViewController.xib; sourceTree = "<group>"; };
+		9AA572B92049E1690060F3BA /* CreateExerciseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateExerciseViewController.swift; sourceTree = "<group>"; };
+		9AA572BA2049E1690060F3BA /* CreateExerciseViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreateExerciseViewController.xib; sourceTree = "<group>"; };
 		9AA572BF2049F7E20060F3BA /* ExerciseEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseEntity.swift; sourceTree = "<group>"; };
 		9AA572C22049FAC60060F3BA /* ExerciseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseManager.swift; sourceTree = "<group>"; };
+		9AA572C6204AD0ED0060F3BA /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		9AA572C7204AD0ED0060F3BA /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		9AA572CD204ADF7D0060F3BA /* ExerciseListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseListViewController.swift; sourceTree = "<group>"; };
+		9AA572CE204ADF7D0060F3BA /* ExerciseListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExerciseListViewController.xib; sourceTree = "<group>"; };
+		9AA572D9204AE92E0060F3BA /* GetExerciseListInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetExerciseListInput.swift; sourceTree = "<group>"; };
+		9AA572DA204AE92E0060F3BA /* GetExerciseListOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetExerciseListOutput.swift; sourceTree = "<group>"; };
+		9AA572DB204AE92E0060F3BA /* GetExerciseListOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetExerciseListOperation.swift; sourceTree = "<group>"; };
 		BED5969F666E42EDE56E2FC7 /* Pods-Pupperino-dev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pupperino-dev.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pupperino-dev/Pods-Pupperino-dev.release.xcconfig"; sourceTree = "<group>"; };
 		C7299E022FB01C27C231371E /* Pods-Pupperino-prd.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pupperino-prd.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pupperino-prd/Pods-Pupperino-prd.release.xcconfig"; sourceTree = "<group>"; };
 		D39C42C10BD489A80681008E /* Pods_Pupperino_dev.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pupperino_dev.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -297,6 +280,7 @@
 				9A3C65522049A26100E210F0 /* TSMBaseServerOperation.swift */,
 				9A3C65532049A26100E210F0 /* TSMBaseOperationOutput.swift */,
 				9A3C65542049A26100E210F0 /* Article */,
+				9AA572D6204AE8E80060F3BA /* Exercise */,
 				9A3C655C2049A26100E210F0 /* TSMBaseOperation.swift */,
 			);
 			path = Operations;
@@ -315,7 +299,6 @@
 			isa = PBXGroup;
 			children = (
 				9A3C65552049A26100E210F0 /* ChangeArticleFavouriteStatus */,
-				9A3C65582049A26100E210F0 /* GetArticleList */,
 			);
 			path = Article;
 			sourceTree = "<group>";
@@ -327,16 +310,6 @@
 				9A3C65572049A26100E210F0 /* ChangeArticleFavouriteStatusInput.swift */,
 			);
 			path = ChangeArticleFavouriteStatus;
-			sourceTree = "<group>";
-		};
-		9A3C65582049A26100E210F0 /* GetArticleList */ = {
-			isa = PBXGroup;
-			children = (
-				9A3C65592049A26100E210F0 /* GetArticleListOutput.swift */,
-				9A3C655A2049A26100E210F0 /* GetArticleListOperation.swift */,
-				9A3C655B2049A26100E210F0 /* GetArticleListInput.swift */,
-			);
-			path = GetArticleList;
 			sourceTree = "<group>";
 		};
 		9A3C655D2049A26100E210F0 /* Repositories */ = {
@@ -392,123 +365,73 @@
 		9A3C656E2049A26100E210F0 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				9AA572B82049E14E0060F3BA /* Tracker */,
+				9AA572CC204ADF5D0060F3BA /* Exercises */,
+				9AA572C5204AD0D30060F3BA /* Main */,
 				9A3C656F2049A26100E210F0 /* BaseViewController.swift */,
-				9A3C65702049A26100E210F0 /* SourceList */,
-				9A3C65782049A26100E210F0 /* Articles */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
-		9A3C65702049A26100E210F0 /* SourceList */ = {
+		9AA572C5204AD0D30060F3BA /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				9A3C65712049A26100E210F0 /* TableViewCells */,
-				9A3C65742049A26100E210F0 /* SourceListViewController.swift */,
-				9A3C65752049A26100E210F0 /* SourceListViewController.xib */,
-				9A3C65762049A26100E210F0 /* DataModel */,
+				9AA572C6204AD0ED0060F3BA /* MainViewController.swift */,
+				9AA572C7204AD0ED0060F3BA /* MainViewController.xib */,
 			);
-			path = SourceList;
+			path = Main;
 			sourceTree = "<group>";
 		};
-		9A3C65712049A26100E210F0 /* TableViewCells */ = {
+		9AA572CC204ADF5D0060F3BA /* Exercises */ = {
 			isa = PBXGroup;
 			children = (
-				9A3C65722049A26100E210F0 /* SourceListTableViewCell.swift */,
-				9A3C65732049A26100E210F0 /* SourceListTableViewCell.xib */,
+				9AA572D5204ADFA40060F3BA /* CreateExercise */,
+				9AA572D4204ADF9B0060F3BA /* ExerciseDetails */,
+				9AA572D3204ADF8F0060F3BA /* ExerciseList */,
 			);
-			path = TableViewCells;
+			path = Exercises;
 			sourceTree = "<group>";
 		};
-		9A3C65762049A26100E210F0 /* DataModel */ = {
+		9AA572D3204ADF8F0060F3BA /* ExerciseList */ = {
 			isa = PBXGroup;
 			children = (
-				9A3C65772049A26100E210F0 /* SourceListDataModel.swift */,
+				9AA572CD204ADF7D0060F3BA /* ExerciseListViewController.swift */,
+				9AA572CE204ADF7D0060F3BA /* ExerciseListViewController.xib */,
 			);
-			path = DataModel;
+			path = ExerciseList;
 			sourceTree = "<group>";
 		};
-		9A3C65782049A26100E210F0 /* Articles */ = {
+		9AA572D4204ADF9B0060F3BA /* ExerciseDetails */ = {
 			isa = PBXGroup;
 			children = (
-				9A3C65792049A26100E210F0 /* ArticleList */,
-				9A3C65812049A26100E210F0 /* FavouriteArticleList */,
-				9A3C65862049A26100E210F0 /* ArticleDetails */,
 			);
-			path = Articles;
+			path = ExerciseDetails;
 			sourceTree = "<group>";
 		};
-		9A3C65792049A26100E210F0 /* ArticleList */ = {
+		9AA572D5204ADFA40060F3BA /* CreateExercise */ = {
 			isa = PBXGroup;
 			children = (
-				9A3C657A2049A26100E210F0 /* ArticleListViewController.swift */,
-				9A3C657B2049A26100E210F0 /* TableViewCells */,
-				9A3C657E2049A26100E210F0 /* ArticleListViewController.xib */,
-				9A3C657F2049A26100E210F0 /* DataModel */,
+				9AA572B92049E1690060F3BA /* CreateExerciseViewController.swift */,
+				9AA572BA2049E1690060F3BA /* CreateExerciseViewController.xib */,
 			);
-			path = ArticleList;
+			path = CreateExercise;
 			sourceTree = "<group>";
 		};
-		9A3C657B2049A26100E210F0 /* TableViewCells */ = {
+		9AA572D6204AE8E80060F3BA /* Exercise */ = {
 			isa = PBXGroup;
 			children = (
-				9A3C657C2049A26100E210F0 /* ArticleListTableViewCell.swift */,
-				9A3C657D2049A26100E210F0 /* ArticleListTableViewCell.xib */,
+				9AA572D8204AE92E0060F3BA /* GetExerciseList */,
 			);
-			path = TableViewCells;
+			path = Exercise;
 			sourceTree = "<group>";
 		};
-		9A3C657F2049A26100E210F0 /* DataModel */ = {
+		9AA572D8204AE92E0060F3BA /* GetExerciseList */ = {
 			isa = PBXGroup;
 			children = (
-				9A3C65802049A26100E210F0 /* ArticleListDataModel.swift */,
+				9AA572D9204AE92E0060F3BA /* GetExerciseListInput.swift */,
+				9AA572DA204AE92E0060F3BA /* GetExerciseListOutput.swift */,
+				9AA572DB204AE92E0060F3BA /* GetExerciseListOperation.swift */,
 			);
-			path = DataModel;
-			sourceTree = "<group>";
-		};
-		9A3C65812049A26100E210F0 /* FavouriteArticleList */ = {
-			isa = PBXGroup;
-			children = (
-				9A3C65822049A26100E210F0 /* FavouriteArticleListViewController.swift */,
-				9A3C65832049A26100E210F0 /* FavouriteArticleListViewController.xib */,
-				9A3C65842049A26100E210F0 /* DataModel */,
-			);
-			path = FavouriteArticleList;
-			sourceTree = "<group>";
-		};
-		9A3C65842049A26100E210F0 /* DataModel */ = {
-			isa = PBXGroup;
-			children = (
-				9A3C65852049A26100E210F0 /* FavouriteArticleListDataModel.swift */,
-			);
-			path = DataModel;
-			sourceTree = "<group>";
-		};
-		9A3C65862049A26100E210F0 /* ArticleDetails */ = {
-			isa = PBXGroup;
-			children = (
-				9A3C65872049A26100E210F0 /* ArticleDetailsViewController.swift */,
-				9A3C65882049A26100E210F0 /* ArticleDetailsViewController.xib */,
-				9A3C65892049A26100E210F0 /* DataModel */,
-			);
-			path = ArticleDetails;
-			sourceTree = "<group>";
-		};
-		9A3C65892049A26100E210F0 /* DataModel */ = {
-			isa = PBXGroup;
-			children = (
-				9A3C658A2049A26100E210F0 /* ArticleDetailsDataModel.swift */,
-			);
-			path = DataModel;
-			sourceTree = "<group>";
-		};
-		9AA572B82049E14E0060F3BA /* Tracker */ = {
-			isa = PBXGroup;
-			children = (
-				9AA572B92049E1690060F3BA /* TrackerViewController.swift */,
-				9AA572BA2049E1690060F3BA /* TrackerViewController.xib */,
-			);
-			path = Tracker;
+			path = GetExerciseList;
 			sourceTree = "<group>";
 		};
 		AB4A40415947E691DC7F68D0 /* Pods */ = {
@@ -639,16 +562,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A3C65A82049A26100E210F0 /* SourceListTableViewCell.xib in Resources */,
-				9A3C65AF2049A26100E210F0 /* ArticleListViewController.xib in Resources */,
 				9A3C651620499EC300E210F0 /* Main.storyboard in Resources */,
-				9A3C65B22049A26100E210F0 /* FavouriteArticleListViewController.xib in Resources */,
-				9A3C65B52049A26100E210F0 /* ArticleDetailsViewController.xib in Resources */,
+				9AA572CA204AD0ED0060F3BA /* MainViewController.xib in Resources */,
 				9A3C651420499EC300E210F0 /* Assets.xcassets in Resources */,
 				9A3C651520499EC300E210F0 /* LaunchScreen.storyboard in Resources */,
-				9A3C65AE2049A26100E210F0 /* ArticleListTableViewCell.xib in Resources */,
-				9A3C65AA2049A26100E210F0 /* SourceListViewController.xib in Resources */,
-				9AA572BD2049E1690060F3BA /* TrackerViewController.xib in Resources */,
+				9AA572D1204ADF7D0060F3BA /* ExerciseListViewController.xib in Resources */,
+				9AA572BD2049E1690060F3BA /* CreateExerciseViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -664,8 +583,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A3C653D20499FE800E210F0 /* Main.storyboard in Resources */,
-				9AA572BE2049E1690060F3BA /* TrackerViewController.xib in Resources */,
+				9AA572BE2049E1690060F3BA /* CreateExerciseViewController.xib in Resources */,
+				9AA572CB204AD0ED0060F3BA /* MainViewController.xib in Resources */,
 				9A3C653E20499FE800E210F0 /* Assets.xcassets in Resources */,
+				9AA572D2204ADF7D0060F3BA /* ExerciseListViewController.xib in Resources */,
 				9A3C653F20499FE800E210F0 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -850,48 +771,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A3C65B12049A26100E210F0 /* FavouriteArticleListViewController.swift in Sources */,
 				9A3C658D2049A26100E210F0 /* ArticleEntityTools.swift in Sources */,
 				9A3C65932049A26100E210F0 /* TSMBaseOperationOutput.swift in Sources */,
-				9A3C65A92049A26100E210F0 /* SourceListViewController.swift in Sources */,
 				9A05DFA42049990300BB3B2F /* AppDelegate.swift in Sources */,
 				9A3C658F2049A26100E210F0 /* NotificationManager.swift in Sources */,
 				9A3C65A32049A26100E210F0 /* Array+Tools.swift in Sources */,
 				9A3C658E2049A26100E210F0 /* SourceEntity.swift in Sources */,
-				9A3C65962049A26100E210F0 /* GetArticleListOutput.swift in Sources */,
 				9A3C651B20499F6D00E210F0 /* Constants+DevelopmentTarget.swift in Sources */,
 				9AA572C32049FAC60060F3BA /* ExerciseManager.swift in Sources */,
 				9A3C65A12049A26100E210F0 /* String+TSMTools.swift in Sources */,
 				9A3C659E2049A26100E210F0 /* FMDBRepository.swift in Sources */,
-				9A3C65B02049A26100E210F0 /* ArticleListDataModel.swift in Sources */,
-				9A3C65B32049A26100E210F0 /* FavouriteArticleListDataModel.swift in Sources */,
 				9A3C65A22049A26100E210F0 /* TSMThreadSafetyTools.swift in Sources */,
 				9A3C65902049A26100E210F0 /* GetSourceListOutput.swift in Sources */,
 				9A3C65A62049A26100E210F0 /* BaseViewController.swift in Sources */,
-				9A3C65B42049A26100E210F0 /* ArticleDetailsViewController.swift in Sources */,
+				9AA572E0204AE92E0060F3BA /* GetExerciseListOperation.swift in Sources */,
 				9A3C65992049A26100E210F0 /* TSMBaseOperation.swift in Sources */,
 				9A3C65942049A26100E210F0 /* ChangeArticleFavouriteStatusOperation.swift in Sources */,
-				9A3C65B62049A26100E210F0 /* ArticleDetailsDataModel.swift in Sources */,
 				9A3C659B2049A26100E210F0 /* RealmRepository.swift in Sources */,
 				9A3C65A42049A26100E210F0 /* TSMGenericTools.swift in Sources */,
+				9AA572C8204AD0ED0060F3BA /* MainViewController.swift in Sources */,
 				9AA572C02049F7E20060F3BA /* ExerciseEntity.swift in Sources */,
 				9A3C65A52049A26100E210F0 /* UITableView+TSMTools.swift in Sources */,
-				9A3C65982049A26100E210F0 /* GetArticleListInput.swift in Sources */,
-				9A3C65A72049A26100E210F0 /* SourceListTableViewCell.swift in Sources */,
+				9AA572DE204AE92E0060F3BA /* GetExerciseListOutput.swift in Sources */,
 				9A3C659F2049A26100E210F0 /* FMDBRepositoryMock.swift in Sources */,
-				9A3C65AD2049A26100E210F0 /* ArticleListTableViewCell.swift in Sources */,
-				9A3C65972049A26100E210F0 /* GetArticleListOperation.swift in Sources */,
-				9A3C65AB2049A26100E210F0 /* SourceListDataModel.swift in Sources */,
 				9A3C659A2049A26100E210F0 /* ArticleRealmEntity.swift in Sources */,
 				9A3C659C2049A26100E210F0 /* RepositoryProtocol.swift in Sources */,
 				9A3C651A20499F6D00E210F0 /* Constants.swift in Sources */,
-				9AA572BB2049E1690060F3BA /* TrackerViewController.swift in Sources */,
+				9AA572DC204AE92E0060F3BA /* GetExerciseListInput.swift in Sources */,
+				9AA572CF204ADF7D0060F3BA /* ExerciseListViewController.swift in Sources */,
+				9AA572BB2049E1690060F3BA /* CreateExerciseViewController.swift in Sources */,
 				9A3C659D2049A26100E210F0 /* RepositoryFactory.swift in Sources */,
 				9A3C65952049A26100E210F0 /* ChangeArticleFavouriteStatusInput.swift in Sources */,
 				9A3C658B2049A26100E210F0 /* ArticleEntity.swift in Sources */,
 				9A3C65912049A26100E210F0 /* GetSourceListOperation.swift in Sources */,
 				9A3C65922049A26100E210F0 /* TSMBaseServerOperation.swift in Sources */,
-				9A3C65AC2049A26100E210F0 /* ArticleListViewController.swift in Sources */,
 				9A3C658C2049A26100E210F0 /* ArticleEntityMock.swift in Sources */,
 				9A3C65A02049A26100E210F0 /* GenericTools.swift in Sources */,
 			);
@@ -909,12 +822,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AA572C9204AD0ED0060F3BA /* MainViewController.swift in Sources */,
 				9AA572C42049FAC60060F3BA /* ExerciseManager.swift in Sources */,
 				9A3C653620499FE800E210F0 /* AppDelegate.swift in Sources */,
-				9AA572BC2049E1690060F3BA /* TrackerViewController.swift in Sources */,
+				9AA572DF204AE92E0060F3BA /* GetExerciseListOutput.swift in Sources */,
+				9AA572BC2049E1690060F3BA /* CreateExerciseViewController.swift in Sources */,
+				9AA572D0204ADF7D0060F3BA /* ExerciseListViewController.swift in Sources */,
 				9A3C653820499FE800E210F0 /* Constants+ProductionTarget.swift in Sources */,
 				9A3C653920499FE800E210F0 /* Constants.swift in Sources */,
 				9AA572C12049F7E20060F3BA /* ExerciseEntity.swift in Sources */,
+				9AA572DD204AE92E0060F3BA /* GetExerciseListInput.swift in Sources */,
+				9AA572E1204AE92E0060F3BA /* GetExerciseListOperation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

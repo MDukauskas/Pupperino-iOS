@@ -26,27 +26,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     private func rootTabBarViewController() -> UITabBarController {
-        
         let tabBarController = UITabBarController()
-        
-        let trackerViewController = TrackerViewController()
-        let trackerTabNavigationController = UINavigationController(rootViewController: trackerViewController)
-        trackerTabNavigationController.tabBarItem.title = trackerViewController.tabBarItem.title
-        trackerTabNavigationController.tabBarItem.image = trackerViewController.tabBarItem.image
-        
-        let sourceListViewController = SourceListViewController()
-        let firstTabNavigationController = UINavigationController(rootViewController: sourceListViewController)
-        firstTabNavigationController.tabBarItem.title = sourceListViewController.tabBarItem.title
-        firstTabNavigationController.tabBarItem.image = sourceListViewController.tabBarItem.image
-        
-        let favouriteArticleListViewController = FavouriteArticleListViewController()
-        let secondTabNavigationController = UINavigationController(rootViewController: favouriteArticleListViewController)
-        secondTabNavigationController.tabBarItem.title = favouriteArticleListViewController.tabBarItem.title
-        secondTabNavigationController.tabBarItem.image = favouriteArticleListViewController.tabBarItem.image
-
-        tabBarController.viewControllers = [trackerTabNavigationController,
-                                            firstTabNavigationController,
-                                            secondTabNavigationController]
+        tabBarController.viewControllers = [CreateExerciseViewController.tabBarController,
+                                            ExerciseListViewController.tabBarController]
         return tabBarController
     }
 }
