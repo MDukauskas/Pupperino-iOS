@@ -67,6 +67,30 @@
 		9AA572DF204AE92E0060F3BA /* GetExerciseListOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA572DA204AE92E0060F3BA /* GetExerciseListOutput.swift */; };
 		9AA572E0204AE92E0060F3BA /* GetExerciseListOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA572DB204AE92E0060F3BA /* GetExerciseListOperation.swift */; };
 		9AA572E1204AE92E0060F3BA /* GetExerciseListOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA572DB204AE92E0060F3BA /* GetExerciseListOperation.swift */; };
+		9AA572E6204BF8F00060F3BA /* MessageListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA572E4204BF8F00060F3BA /* MessageListViewController.swift */; };
+		9AA572E7204BF8F00060F3BA /* MessageListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA572E4204BF8F00060F3BA /* MessageListViewController.swift */; };
+		9AA572E8204BF8F00060F3BA /* MessageListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AA572E5204BF8F00060F3BA /* MessageListViewController.xib */; };
+		9AA572E9204BF8F00060F3BA /* MessageListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AA572E5204BF8F00060F3BA /* MessageListViewController.xib */; };
+		9AA572ED204C00090060F3BA /* DogProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA572EB204C00090060F3BA /* DogProfileViewController.swift */; };
+		9AA572EE204C00090060F3BA /* DogProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA572EB204C00090060F3BA /* DogProfileViewController.swift */; };
+		9AA572EF204C00090060F3BA /* DogProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AA572EC204C00090060F3BA /* DogProfileViewController.xib */; };
+		9AA572F0204C00090060F3BA /* DogProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AA572EC204C00090060F3BA /* DogProfileViewController.xib */; };
+		9AA572F5204C0A490060F3BA /* VetListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA572F3204C0A490060F3BA /* VetListViewController.swift */; };
+		9AA572F6204C0A490060F3BA /* VetListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA572F3204C0A490060F3BA /* VetListViewController.swift */; };
+		9AA572F7204C0A490060F3BA /* VetListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AA572F4204C0A490060F3BA /* VetListViewController.xib */; };
+		9AA572F8204C0A490060F3BA /* VetListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AA572F4204C0A490060F3BA /* VetListViewController.xib */; };
+		9AA572FC204C29C10060F3BA /* BottomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA572FB204C29C10060F3BA /* BottomBar.swift */; };
+		9AA572FD204C29C10060F3BA /* BottomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA572FB204C29C10060F3BA /* BottomBar.swift */; };
+		9AA572FF204C29DB0060F3BA /* BottomBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AA572FE204C29DB0060F3BA /* BottomBar.xib */; };
+		9AA57300204C29DB0060F3BA /* BottomBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AA572FE204C29DB0060F3BA /* BottomBar.xib */; };
+		9AA57302204C2ACD0060F3BA /* UIView+XibLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA57301204C2ACD0060F3BA /* UIView+XibLoader.swift */; };
+		9AA57303204C2ACD0060F3BA /* UIView+XibLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA57301204C2ACD0060F3BA /* UIView+XibLoader.swift */; };
+		9AA57305204C2B6D0060F3BA /* UIView+AutoLayouts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA57304204C2B6D0060F3BA /* UIView+AutoLayouts.swift */; };
+		9AA57306204C2B6D0060F3BA /* UIView+AutoLayouts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA57304204C2B6D0060F3BA /* UIView+AutoLayouts.swift */; };
+		9AA5730A204C30470060F3BA /* ClinicsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA57308204C30470060F3BA /* ClinicsListViewController.swift */; };
+		9AA5730B204C30470060F3BA /* ClinicsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA57308204C30470060F3BA /* ClinicsListViewController.swift */; };
+		9AA5730C204C30470060F3BA /* ClinicsListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AA57309204C30470060F3BA /* ClinicsListViewController.xib */; };
+		9AA5730D204C30470060F3BA /* ClinicsListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AA57309204C30470060F3BA /* ClinicsListViewController.xib */; };
 		D207DB59D8984725D284D275 /* Pods_Pupperino_dev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D39C42C10BD489A80681008E /* Pods_Pupperino_dev.framework */; };
 /* End PBXBuildFile section */
 
@@ -135,6 +159,18 @@
 		9AA572D9204AE92E0060F3BA /* GetExerciseListInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetExerciseListInput.swift; sourceTree = "<group>"; };
 		9AA572DA204AE92E0060F3BA /* GetExerciseListOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetExerciseListOutput.swift; sourceTree = "<group>"; };
 		9AA572DB204AE92E0060F3BA /* GetExerciseListOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetExerciseListOperation.swift; sourceTree = "<group>"; };
+		9AA572E4204BF8F00060F3BA /* MessageListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageListViewController.swift; sourceTree = "<group>"; };
+		9AA572E5204BF8F00060F3BA /* MessageListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageListViewController.xib; sourceTree = "<group>"; };
+		9AA572EB204C00090060F3BA /* DogProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogProfileViewController.swift; sourceTree = "<group>"; };
+		9AA572EC204C00090060F3BA /* DogProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DogProfileViewController.xib; sourceTree = "<group>"; };
+		9AA572F3204C0A490060F3BA /* VetListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VetListViewController.swift; sourceTree = "<group>"; };
+		9AA572F4204C0A490060F3BA /* VetListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VetListViewController.xib; sourceTree = "<group>"; };
+		9AA572FB204C29C10060F3BA /* BottomBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBar.swift; sourceTree = "<group>"; };
+		9AA572FE204C29DB0060F3BA /* BottomBar.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BottomBar.xib; sourceTree = "<group>"; };
+		9AA57301204C2ACD0060F3BA /* UIView+XibLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+XibLoader.swift"; sourceTree = "<group>"; };
+		9AA57304204C2B6D0060F3BA /* UIView+AutoLayouts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+AutoLayouts.swift"; sourceTree = "<group>"; };
+		9AA57308204C30470060F3BA /* ClinicsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClinicsListViewController.swift; sourceTree = "<group>"; };
+		9AA57309204C30470060F3BA /* ClinicsListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ClinicsListViewController.xib; sourceTree = "<group>"; };
 		BED5969F666E42EDE56E2FC7 /* Pods-Pupperino-dev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pupperino-dev.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pupperino-dev/Pods-Pupperino-dev.release.xcconfig"; sourceTree = "<group>"; };
 		C7299E022FB01C27C231371E /* Pods-Pupperino-prd.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pupperino-prd.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pupperino-prd/Pods-Pupperino-prd.release.xcconfig"; sourceTree = "<group>"; };
 		D39C42C10BD489A80681008E /* Pods_Pupperino_dev.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pupperino_dev.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -228,6 +264,7 @@
 				9A3C65672049A26100E210F0 /* Tools */,
 				9A3C656E2049A26100E210F0 /* ViewControllers */,
 				9A05DFA32049990300BB3B2F /* AppDelegate.swift */,
+				9AA572F9204C299F0060F3BA /* Views */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -352,6 +389,8 @@
 		9A3C65672049A26100E210F0 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				9AA57304204C2B6D0060F3BA /* UIView+AutoLayouts.swift */,
+				9AA57301204C2ACD0060F3BA /* UIView+XibLoader.swift */,
 				9A3C65682049A26100E210F0 /* GenericTools.swift */,
 				9A3C65692049A26100E210F0 /* String+TSMTools.swift */,
 				9A3C656A2049A26100E210F0 /* TSMThreadSafetyTools.swift */,
@@ -365,6 +404,10 @@
 		9A3C656E2049A26100E210F0 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				9AA57307204C301F0060F3BA /* ClinicsList */,
+				9AA572F1204C0A380060F3BA /* Vets */,
+				9AA572EA204BFFF60060F3BA /* DogProfile */,
+				9AA572E2204BF8BB0060F3BA /* Messages */,
 				9AA572CC204ADF5D0060F3BA /* Exercises */,
 				9AA572C5204AD0D30060F3BA /* Main */,
 				9A3C656F2049A26100E210F0 /* BaseViewController.swift */,
@@ -432,6 +475,75 @@
 				9AA572DB204AE92E0060F3BA /* GetExerciseListOperation.swift */,
 			);
 			path = GetExerciseList;
+			sourceTree = "<group>";
+		};
+		9AA572E2204BF8BB0060F3BA /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				9AA572E3204BF8E00060F3BA /* MessageList */,
+			);
+			path = Messages;
+			sourceTree = "<group>";
+		};
+		9AA572E3204BF8E00060F3BA /* MessageList */ = {
+			isa = PBXGroup;
+			children = (
+				9AA572E4204BF8F00060F3BA /* MessageListViewController.swift */,
+				9AA572E5204BF8F00060F3BA /* MessageListViewController.xib */,
+			);
+			path = MessageList;
+			sourceTree = "<group>";
+		};
+		9AA572EA204BFFF60060F3BA /* DogProfile */ = {
+			isa = PBXGroup;
+			children = (
+				9AA572EB204C00090060F3BA /* DogProfileViewController.swift */,
+				9AA572EC204C00090060F3BA /* DogProfileViewController.xib */,
+			);
+			path = DogProfile;
+			sourceTree = "<group>";
+		};
+		9AA572F1204C0A380060F3BA /* Vets */ = {
+			isa = PBXGroup;
+			children = (
+				9AA572F2204C0A3F0060F3BA /* VetList */,
+			);
+			path = Vets;
+			sourceTree = "<group>";
+		};
+		9AA572F2204C0A3F0060F3BA /* VetList */ = {
+			isa = PBXGroup;
+			children = (
+				9AA572F3204C0A490060F3BA /* VetListViewController.swift */,
+				9AA572F4204C0A490060F3BA /* VetListViewController.xib */,
+			);
+			path = VetList;
+			sourceTree = "<group>";
+		};
+		9AA572F9204C299F0060F3BA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9AA572FA204C29A80060F3BA /* BottomBar */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9AA572FA204C29A80060F3BA /* BottomBar */ = {
+			isa = PBXGroup;
+			children = (
+				9AA572FB204C29C10060F3BA /* BottomBar.swift */,
+				9AA572FE204C29DB0060F3BA /* BottomBar.xib */,
+			);
+			path = BottomBar;
+			sourceTree = "<group>";
+		};
+		9AA57307204C301F0060F3BA /* ClinicsList */ = {
+			isa = PBXGroup;
+			children = (
+				9AA57308204C30470060F3BA /* ClinicsListViewController.swift */,
+				9AA57309204C30470060F3BA /* ClinicsListViewController.xib */,
+			);
+			path = ClinicsList;
 			sourceTree = "<group>";
 		};
 		AB4A40415947E691DC7F68D0 /* Pods */ = {
@@ -564,10 +676,15 @@
 			files = (
 				9A3C651620499EC300E210F0 /* Main.storyboard in Resources */,
 				9AA572CA204AD0ED0060F3BA /* MainViewController.xib in Resources */,
+				9AA572E8204BF8F00060F3BA /* MessageListViewController.xib in Resources */,
 				9A3C651420499EC300E210F0 /* Assets.xcassets in Resources */,
+				9AA5730C204C30470060F3BA /* ClinicsListViewController.xib in Resources */,
 				9A3C651520499EC300E210F0 /* LaunchScreen.storyboard in Resources */,
 				9AA572D1204ADF7D0060F3BA /* ExerciseListViewController.xib in Resources */,
 				9AA572BD2049E1690060F3BA /* CreateExerciseViewController.xib in Resources */,
+				9AA572EF204C00090060F3BA /* DogProfileViewController.xib in Resources */,
+				9AA572FF204C29DB0060F3BA /* BottomBar.xib in Resources */,
+				9AA572F7204C0A490060F3BA /* VetListViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -584,10 +701,15 @@
 			files = (
 				9A3C653D20499FE800E210F0 /* Main.storyboard in Resources */,
 				9AA572BE2049E1690060F3BA /* CreateExerciseViewController.xib in Resources */,
+				9AA572E9204BF8F00060F3BA /* MessageListViewController.xib in Resources */,
 				9AA572CB204AD0ED0060F3BA /* MainViewController.xib in Resources */,
+				9AA5730D204C30470060F3BA /* ClinicsListViewController.xib in Resources */,
 				9A3C653E20499FE800E210F0 /* Assets.xcassets in Resources */,
 				9AA572D2204ADF7D0060F3BA /* ExerciseListViewController.xib in Resources */,
 				9A3C653F20499FE800E210F0 /* LaunchScreen.storyboard in Resources */,
+				9AA572F0204C00090060F3BA /* DogProfileViewController.xib in Resources */,
+				9AA57300204C29DB0060F3BA /* BottomBar.xib in Resources */,
+				9AA572F8204C0A490060F3BA /* VetListViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -772,7 +894,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A3C658D2049A26100E210F0 /* ArticleEntityTools.swift in Sources */,
+				9AA572E6204BF8F00060F3BA /* MessageListViewController.swift in Sources */,
 				9A3C65932049A26100E210F0 /* TSMBaseOperationOutput.swift in Sources */,
+				9AA57305204C2B6D0060F3BA /* UIView+AutoLayouts.swift in Sources */,
+				9AA572F5204C0A490060F3BA /* VetListViewController.swift in Sources */,
 				9A05DFA42049990300BB3B2F /* AppDelegate.swift in Sources */,
 				9A3C658F2049A26100E210F0 /* NotificationManager.swift in Sources */,
 				9A3C65A32049A26100E210F0 /* Array+Tools.swift in Sources */,
@@ -798,12 +923,16 @@
 				9A3C659C2049A26100E210F0 /* RepositoryProtocol.swift in Sources */,
 				9A3C651A20499F6D00E210F0 /* Constants.swift in Sources */,
 				9AA572DC204AE92E0060F3BA /* GetExerciseListInput.swift in Sources */,
+				9AA5730A204C30470060F3BA /* ClinicsListViewController.swift in Sources */,
 				9AA572CF204ADF7D0060F3BA /* ExerciseListViewController.swift in Sources */,
 				9AA572BB2049E1690060F3BA /* CreateExerciseViewController.swift in Sources */,
 				9A3C659D2049A26100E210F0 /* RepositoryFactory.swift in Sources */,
+				9AA572ED204C00090060F3BA /* DogProfileViewController.swift in Sources */,
+				9AA57302204C2ACD0060F3BA /* UIView+XibLoader.swift in Sources */,
 				9A3C65952049A26100E210F0 /* ChangeArticleFavouriteStatusInput.swift in Sources */,
 				9A3C658B2049A26100E210F0 /* ArticleEntity.swift in Sources */,
 				9A3C65912049A26100E210F0 /* GetSourceListOperation.swift in Sources */,
+				9AA572FC204C29C10060F3BA /* BottomBar.swift in Sources */,
 				9A3C65922049A26100E210F0 /* TSMBaseServerOperation.swift in Sources */,
 				9A3C658C2049A26100E210F0 /* ArticleEntityMock.swift in Sources */,
 				9A3C65A02049A26100E210F0 /* GenericTools.swift in Sources */,
@@ -824,15 +953,22 @@
 			files = (
 				9AA572C9204AD0ED0060F3BA /* MainViewController.swift in Sources */,
 				9AA572C42049FAC60060F3BA /* ExerciseManager.swift in Sources */,
+				9AA572F6204C0A490060F3BA /* VetListViewController.swift in Sources */,
 				9A3C653620499FE800E210F0 /* AppDelegate.swift in Sources */,
+				9AA572EE204C00090060F3BA /* DogProfileViewController.swift in Sources */,
 				9AA572DF204AE92E0060F3BA /* GetExerciseListOutput.swift in Sources */,
 				9AA572BC2049E1690060F3BA /* CreateExerciseViewController.swift in Sources */,
 				9AA572D0204ADF7D0060F3BA /* ExerciseListViewController.swift in Sources */,
 				9A3C653820499FE800E210F0 /* Constants+ProductionTarget.swift in Sources */,
 				9A3C653920499FE800E210F0 /* Constants.swift in Sources */,
 				9AA572C12049F7E20060F3BA /* ExerciseEntity.swift in Sources */,
+				9AA572FD204C29C10060F3BA /* BottomBar.swift in Sources */,
 				9AA572DD204AE92E0060F3BA /* GetExerciseListInput.swift in Sources */,
+				9AA572E7204BF8F00060F3BA /* MessageListViewController.swift in Sources */,
 				9AA572E1204AE92E0060F3BA /* GetExerciseListOperation.swift in Sources */,
+				9AA57303204C2ACD0060F3BA /* UIView+XibLoader.swift in Sources */,
+				9AA5730B204C30470060F3BA /* ClinicsListViewController.swift in Sources */,
+				9AA57306204C2B6D0060F3BA /* UIView+AutoLayouts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

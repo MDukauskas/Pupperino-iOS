@@ -79,7 +79,8 @@ class ExerciseManager: NSObject {
         }
 
         isPaused = true
-        save()
+        // TODO: enable save
+        // save()
         activeExercise = nil
     }
     

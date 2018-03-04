@@ -7,10 +7,10 @@
 //
 
 import UIKit
+import WebKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         let window = UIWindow(frame: UIScreen.main.bounds)
         self.window = window
-        window.rootViewController = rootTabBarViewController()
+        window.rootViewController = MainViewController.tabBarController
         window.makeKeyAndVisible()
         
         return true
@@ -27,8 +27,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     private func rootTabBarViewController() -> UITabBarController {
         let tabBarController = UITabBarController()
-        tabBarController.viewControllers = [CreateExerciseViewController.tabBarController,
-                                            ExerciseListViewController.tabBarController]
+        tabBarController.viewControllers = [MainViewController.tabBarController,
+                                            CreateExerciseViewController.tabBarController,
+                                            ExerciseListViewController.tabBarController,
+                                            VetListViewController.tabBarController]
         return tabBarController
     }
 }

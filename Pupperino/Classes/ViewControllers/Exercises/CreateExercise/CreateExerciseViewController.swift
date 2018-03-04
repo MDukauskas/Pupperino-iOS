@@ -20,7 +20,7 @@ class CreateExerciseViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        title = "Create Exercise".localized
+        title = "Activity tracker".localized
 
         exerciseManager = ExerciseManager(delegate: self)
     }
@@ -42,8 +42,8 @@ class CreateExerciseViewController: UIViewController {
     static var tabBarController: UIViewController {
         let trackerViewController = CreateExerciseViewController()
         let navigationController = UINavigationController(rootViewController: trackerViewController)
-        navigationController.tabBarItem.title = "Create Exercise".localized
-        navigationController.tabBarItem.image = #imageLiteral(resourceName: "tabbar_favorite_icon")
+        navigationController.tabBarItem.title = "Activity tracker".localized
+        navigationController.tabBarItem.image = #imageLiteral(resourceName: "tracker")
         return navigationController
     }
 }
