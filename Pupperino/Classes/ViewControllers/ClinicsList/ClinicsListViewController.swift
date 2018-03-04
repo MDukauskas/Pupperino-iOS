@@ -40,7 +40,14 @@ extension ClinicsListViewController: WKNavigationDelegate {
         decisionHandler(.allow)
     }
     
-    naviga
+    func webView(_ webView: WKWebView, decidePolicyFor navigationResponse: WKNavigationResponse, decisionHandler: @escaping (WKNavigationResponsePolicy) -> Void) {
+        if let urlString = webView.url?.absoluteString,
+            !urlString.contains("cvinfo.lt") {
+            decisionHandler(.cancel)
+            return
+        }
+        decisionHandler(.allow)
+    }
     
     fileprivate func openExternalUrl(_ url: URL) {
         
