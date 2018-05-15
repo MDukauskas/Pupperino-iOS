@@ -6,6 +6,7 @@ def common_pods
     pod 'IHKeyboardAvoiding', '~> 4.2'
     pod 'FMDB', '~> 2.7'
     pod 'RealmSwift', '~> 3.1.1'
+    pod 'FBSDKLoginKit'
 end
 
 target 'Pupperino-dev' do

@@ -9,7 +9,7 @@
 import UIKit
 import WebKit
 
-class MainViewController: UIViewController {
+final class MainViewController: UIViewController {
     @IBOutlet weak var webView: WKWebView!
 
     override func viewDidLoad() {
@@ -21,6 +21,7 @@ class MainViewController: UIViewController {
         setupWebView()
     }
     
+    // MARK: - UI Setup
     private func setupWebView() {
         let url = URL(string: "http://www.cvinfo.lt/dashboards")
         let urlRequest = URLRequest(url: url!,
@@ -37,14 +38,24 @@ class MainViewController: UIViewController {
         dogButton.clipsToBounds = true
         dogButton.layer.cornerRadius = 16
         navigationItem.rightBarButtonItem = UIBarButtonItem(customView: dogButton)
+        
+        setupFacebookLogin()
     }
     
-    @objc private func touchUpInsideDogProfileButton() {
+    private func setupFacebookLogin() {
+        navigationItem.leftBarButtonItem = FacebookLoginManager.shared.facebookLoginButton()
+    }
+    
+    // MARK: - Helpers
+    
+    // MARK: - Actions
+    @objc
+    private func touchUpInsideDogProfileButton() {
         let profileViewController = DogProfileViewController()
         navigationController?.pushViewController(profileViewController, animated: true)
     }
     
-    // MARK: - UITabBar controller
+    // MARK: - UITabBarController
     static var tabBarController: UIViewController {
         let trackerViewController = MainViewController()
         let navigationController = UINavigationController(rootViewController: trackerViewController)
@@ -52,6 +63,11 @@ class MainViewController: UIViewController {
         navigationController.tabBarItem.image = #imageLiteral(resourceName: "tabbar_favorite_icon")
         return navigationController
     }
+}
+
+extension MainViewController: UITabBarControllerDelegate {
     
-    
+    func tabBarController(_ tabBarController: UITabBarController, shouldSelect viewController: UIViewController) -> Bool {
+        return false
+    }
 }

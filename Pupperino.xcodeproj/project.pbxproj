@@ -7,8 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		695AB7C80968984ED7FB9045 /* Pods_Pupperino_prd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F3BFC88B6ED875E08B3A638 /* Pods_Pupperino_prd.framework */; };
+		74E993206D3D6A40F5D2372C /* Pods_PupperinoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D08E124DF0C07B8CD851C4D /* Pods_PupperinoTests.framework */; };
 		9A05DFA42049990300BB3B2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A05DFA32049990300BB3B2F /* AppDelegate.swift */; };
 		9A05DFB92049990300BB3B2F /* PupperinoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A05DFB82049990300BB3B2F /* PupperinoTests.swift */; };
+		9A0A3ADD2059E88700F8693A /* FacebookLoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0A3ADC2059E88700F8693A /* FacebookLoginManager.swift */; };
+		9A0A3ADE2059E88700F8693A /* FacebookLoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0A3ADC2059E88700F8693A /* FacebookLoginManager.swift */; };
+		9A0A3AE02059EBA300F8693A /* UIApplication+TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0A3ADF2059EBA300F8693A /* UIApplication+TopViewController.swift */; };
+		9A0A3AE12059EBA300F8693A /* UIApplication+TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0A3ADF2059EBA300F8693A /* UIApplication+TopViewController.swift */; };
 		9A3C651420499EC300E210F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A3C650F20499EC300E210F0 /* Assets.xcassets */; };
 		9A3C651520499EC300E210F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A3C651020499EC300E210F0 /* LaunchScreen.storyboard */; };
 		9A3C651620499EC300E210F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A3C651220499EC300E210F0 /* Main.storyboard */; };
@@ -109,12 +115,16 @@
 		20973AA7B5D4DBBE43AC1DA7 /* Pods-Pupperino.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pupperino.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pupperino/Pods-Pupperino.debug.xcconfig"; sourceTree = "<group>"; };
 		2C449BDA2A4B4881B1CA9411 /* Pods-Pupperino-dev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pupperino-dev.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pupperino-dev/Pods-Pupperino-dev.debug.xcconfig"; sourceTree = "<group>"; };
 		49E58EDC3EF29BDCC0AF8FA0 /* Pods-Pupperino.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pupperino.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pupperino/Pods-Pupperino.release.xcconfig"; sourceTree = "<group>"; };
+		4D08E124DF0C07B8CD851C4D /* Pods_PupperinoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PupperinoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F3BFC88B6ED875E08B3A638 /* Pods_Pupperino_prd.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pupperino_prd.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A05DFA02049990300BB3B2F /* Pupperino-dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pupperino-dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A05DFA32049990300BB3B2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A05DFAF2049990300BB3B2F /* Pupperino-dev-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pupperino-dev-Info.plist"; sourceTree = "<group>"; };
 		9A05DFB42049990300BB3B2F /* PupperinoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PupperinoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A05DFB82049990300BB3B2F /* PupperinoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PupperinoTests.swift; sourceTree = "<group>"; };
 		9A05DFBA2049990300BB3B2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A0A3ADC2059E88700F8693A /* FacebookLoginManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookLoginManager.swift; sourceTree = "<group>"; };
+		9A0A3ADF2059EBA300F8693A /* UIApplication+TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+TopViewController.swift"; sourceTree = "<group>"; };
 		9A3C650F20499EC300E210F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A3C651120499EC300E210F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A3C651320499EC300E210F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -191,6 +201,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74E993206D3D6A40F5D2372C /* Pods_PupperinoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +209,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				695AB7C80968984ED7FB9045 /* Pods_Pupperino_prd.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,6 +220,8 @@
 			isa = PBXGroup;
 			children = (
 				D39C42C10BD489A80681008E /* Pods_Pupperino_dev.framework */,
+				5F3BFC88B6ED875E08B3A638 /* Pods_Pupperino_prd.framework */,
+				4D08E124DF0C07B8CD851C4D /* Pods_PupperinoTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -263,8 +277,8 @@
 				9A3C655D2049A26100E210F0 /* Repositories */,
 				9A3C65672049A26100E210F0 /* Tools */,
 				9A3C656E2049A26100E210F0 /* ViewControllers */,
-				9A05DFA32049990300BB3B2F /* AppDelegate.swift */,
 				9AA572F9204C299F0060F3BA /* Views */,
+				9A05DFA32049990300BB3B2F /* AppDelegate.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -306,6 +320,7 @@
 			children = (
 				9A3C654D2049A26100E210F0 /* NotificationManager.swift */,
 				9AA572C22049FAC60060F3BA /* ExerciseManager.swift */,
+				9A0A3ADC2059E88700F8693A /* FacebookLoginManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -397,6 +412,7 @@
 				9A3C656B2049A26100E210F0 /* Array+Tools.swift */,
 				9A3C656C2049A26100E210F0 /* TSMGenericTools.swift */,
 				9A3C656D2049A26100E210F0 /* UITableView+TSMTools.swift */,
+				9A0A3ADF2059EBA300F8693A /* UIApplication+TopViewController.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -822,6 +838,9 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Pupperino-prd/Pods-Pupperino-prd-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
 				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
 				"${BUILT_PRODUCTS_DIR}/IHKeyboardAvoiding/IHKeyboardAvoiding.framework",
 				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
@@ -831,6 +850,9 @@
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IHKeyboardAvoiding.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PureLayout.framework",
@@ -865,6 +887,9 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Pupperino-dev/Pods-Pupperino-dev-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
 				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
 				"${BUILT_PRODUCTS_DIR}/IHKeyboardAvoiding/IHKeyboardAvoiding.framework",
 				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
@@ -874,6 +899,9 @@
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IHKeyboardAvoiding.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PureLayout.framework",
@@ -908,6 +936,7 @@
 				9A3C659E2049A26100E210F0 /* FMDBRepository.swift in Sources */,
 				9A3C65A22049A26100E210F0 /* TSMThreadSafetyTools.swift in Sources */,
 				9A3C65902049A26100E210F0 /* GetSourceListOutput.swift in Sources */,
+				9A0A3AE02059EBA300F8693A /* UIApplication+TopViewController.swift in Sources */,
 				9A3C65A62049A26100E210F0 /* BaseViewController.swift in Sources */,
 				9AA572E0204AE92E0060F3BA /* GetExerciseListOperation.swift in Sources */,
 				9A3C65992049A26100E210F0 /* TSMBaseOperation.swift in Sources */,
@@ -916,6 +945,7 @@
 				9A3C65A42049A26100E210F0 /* TSMGenericTools.swift in Sources */,
 				9AA572C8204AD0ED0060F3BA /* MainViewController.swift in Sources */,
 				9AA572C02049F7E20060F3BA /* ExerciseEntity.swift in Sources */,
+				9A0A3ADD2059E88700F8693A /* FacebookLoginManager.swift in Sources */,
 				9A3C65A52049A26100E210F0 /* UITableView+TSMTools.swift in Sources */,
 				9AA572DE204AE92E0060F3BA /* GetExerciseListOutput.swift in Sources */,
 				9A3C659F2049A26100E210F0 /* FMDBRepositoryMock.swift in Sources */,
@@ -956,6 +986,7 @@
 				9AA572F6204C0A490060F3BA /* VetListViewController.swift in Sources */,
 				9A3C653620499FE800E210F0 /* AppDelegate.swift in Sources */,
 				9AA572EE204C00090060F3BA /* DogProfileViewController.swift in Sources */,
+				9A0A3ADE2059E88700F8693A /* FacebookLoginManager.swift in Sources */,
 				9AA572DF204AE92E0060F3BA /* GetExerciseListOutput.swift in Sources */,
 				9AA572BC2049E1690060F3BA /* CreateExerciseViewController.swift in Sources */,
 				9AA572D0204ADF7D0060F3BA /* ExerciseListViewController.swift in Sources */,
@@ -965,6 +996,7 @@
 				9AA572FD204C29C10060F3BA /* BottomBar.swift in Sources */,
 				9AA572DD204AE92E0060F3BA /* GetExerciseListInput.swift in Sources */,
 				9AA572E7204BF8F00060F3BA /* MessageListViewController.swift in Sources */,
+				9A0A3AE12059EBA300F8693A /* UIApplication+TopViewController.swift in Sources */,
 				9AA572E1204AE92E0060F3BA /* GetExerciseListOperation.swift in Sources */,
 				9AA57303204C2ACD0060F3BA /* UIView+XibLoader.swift in Sources */,
 				9AA5730B204C30470060F3BA /* ClinicsListViewController.swift in Sources */,
